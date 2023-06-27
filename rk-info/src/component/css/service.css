@@ -665,19 +665,19 @@ body {
 .form-select,
 .form-con {
   border: none;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #727E8E;
   border-radius: 0;
 }
 
 .form-select:focus,
 .form-con:focus {
   box-shadow: none;
-  border-bottom-color: #2196f3;
+  border-bottom-color: #027BB1;
 }
 
 .form-select:focus+label,
 .form-con:focus+label {
-  color: #2196f3;
+  color: #027BB1;
 }
 
 .form {
@@ -692,10 +692,7 @@ body {
   }
 }
 
-input[type="submit"] {
-  color: #2196f3;
-  border-color: #2196f3;
-}
+
 
 .formm {
   font-size: 20px;
