@@ -52,13 +52,13 @@ export default function Footer() {
             <div className="row">
               <div className="col-md-6 text-center text-md-start mb-3 mb-md-0 nav">
                 <li>
-                  <a href="#">Home</a>
+                  <a href="/">Home</a>
                 </li>
                 <li >
-                  <a href="#">About</a>
+                  <a href="/abouts">About</a>
                 </li>
                 <li >
-                  <a href="#">Contact</a>
+                  <a href="/contact">Contact</a>
                 </li>
               </div>
               <div className="col-md-6 text-center text-md-end">

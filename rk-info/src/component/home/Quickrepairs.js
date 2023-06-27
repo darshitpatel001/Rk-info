@@ -114,7 +114,7 @@ export default function Quickrepairs() {
                                     type="button"
                                     className="btnn"
                                 >
-                                    <a href='#'> Learn More</a>
+                                    <a href='/services'> Learn More</a>
                                 </button>
                             </div>
                         </div>
