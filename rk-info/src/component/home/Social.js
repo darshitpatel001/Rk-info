@@ -18,7 +18,7 @@ export default function Social() {
                                 <h1 className='social1'>Online Shop</h1>
                                 <h2 className='social2'>You can find new and second-hand
                                     gadgets at our online shop.</h2>
-                                <img src={Social4} className='social' />
+                                <a href='/product'><img src={Social4} className='social' /></a>
                             </div>
                         </div>
 
@@ -28,7 +28,7 @@ export default function Social() {
                                 <h1 className='social1'>Locations</h1>
                                 <h2 className='social2'>Find a repair shop near you. View
                                     more contact information.</h2>
-                                <img src={Social4} className='social' />
+                                    <a href='/contact'><img src={Social4} className='social' /></a>
                             </div>
                         </div>
 
@@ -38,7 +38,7 @@ export default function Social() {
                                 <h1 className='social1'>Support</h1>
                                 <h2 className='social2'>We offer a 24/7 customer hotline<br />
                                     so we can help you online.</h2>
-                                <img src={Social4} className='social' />
+                                    <a href='/contact'><img src={Social4} className='social' /></a>
                             </div>
                         </div>
 
