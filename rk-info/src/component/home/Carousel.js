@@ -26,7 +26,7 @@ export default function Carousel() {
                                 <h2 className='demoo'>What Problems can <br />repair solve</h2>
                                 <p>RK is a neat, feature-rich landing page
                                     template <br />designed to showcase your product or service in <br />style.</p>
-                                <a href="#about" className="btn-get-started animate_animated animate_fadeInUp scrollto">Visit Online Store</a>
+                                <a href="" className="btn-get-started animate_animated animate_fadeInUp scrollto">Visit Online Store</a>
                             </div>
                         </div>
                     </div>
@@ -37,7 +37,7 @@ export default function Carousel() {
                                 <h2 className='demoo'>What Problems Can</h2>
                                 <p>RK is a neat, feature-rich landing page
                                     template <br />designed to showcase your product or service in <br />style.</p>
-                                <a href="#about" className="btn-get-started animate_animated animate_fadeInUp scrollto">Visit Online Store</a>
+                                <a href="" className="btn-get-started animate_animated animate_fadeInUp scrollto">Visit Online Store</a>
                             </div>
                         </div>
                     </div>
@@ -48,7 +48,7 @@ export default function Carousel() {
                                 <h2 className='demoo'>What Problems Can</h2>
                                 <p>RK is a neat, feature-rich landing page
                                     template <br />designed to showcase your product or service in <br />style.</p>
-                                <a href="#about" className="btn-get-started animate_animated animate_fadeInUp scrollto">Visit Online Store</a>
+                                <a href="" className="btn-get-started animate_animated animate_fadeInUp scrollto">Visit Online Store</a>
                             </div>
                         </div>
                     </div>
@@ -74,7 +74,7 @@ export default function Carousel() {
                                 <h2 className='demoo'>What Problems Can</h2>
                                 <p>RK is a neat, feature-rich landing page
                                     template <br />designed to showcase your product or service in <br />style.</p>
-                                <a href="#about" className="btn-get-started animate_animated animate_fadeInUp scrollto">Visit Online Store</a>
+                                <a href="" className="btn-get-started animate_animated animate_fadeInUp scrollto">Visit Online Store</a>
                             </div>
                         </div>
                     </div>
@@ -85,7 +85,7 @@ export default function Carousel() {
                                 <h2 className='demoo'>What Problems Can</h2>
                                 <p>RK is a neat, feature-rich landing page
                                     template <br />designed to showcase your product or service in <br />style.</p>
-                                <a href="#about" className="btn-get-started animate_animated animate_fadeInUp scrollto">Visit Online Store</a>
+                                <a href="" className="btn-get-started animate_animated animate_fadeInUp scrollto">Visit Online Store</a>
                             </div>
                         </div>
                     </div>
@@ -96,7 +96,7 @@ export default function Carousel() {
                                 <h2 className='demoo'>What Problems Can</h2>
                                 <p>RK is a neat, feature-rich landing page
                                     template <br />designed to showcase your product or service in <br />style.</p>
-                                <a href="#about" className="btn-get-started animate_animated animate_fadeInUp scrollto">Visit Online Store</a>
+                                <a href="" className="btn-get-started animate_animated animate_fadeInUp scrollto">Visit Online Store</a>
                             </div>
                         </div>
                     </div>
