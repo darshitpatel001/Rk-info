@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
-import Carousel1 from '../assets/img/Rectangle 2.jpg'
-import Carousel2 from '../assets/img/Rectangle 2.jpg'
+import Carousel1 from '../assets/img/Rectangle 1.jpg'
+import Carousel2 from '../assets/img/pc-upgrade-compressed.jpg'
 import Carousel3 from '../assets/img/Rectangle 2.jpg'
 import 'animate.css';
 import { WOW } from 'wowjs';
@@ -79,7 +79,7 @@ export default function Carousel() {
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src={Carousel3} alt="New York" className="d-block" />
+                        <img src={Carousel2} alt="New York" className="d-block" />
                         <div className="carousel-caption text-left">
                             <div className="container">
                                 <h2 className='demoo'>What Problems Can</h2>
@@ -90,7 +90,7 @@ export default function Carousel() {
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src={Carousel3} alt="New York" className="d-block" />
+                        <img src={Carousel1} alt="New York" className="d-block" />
                         <div className="carousel-caption text-left">
                             <div className="container">
                                 <h2 className='demoo'>What Problems Can</h2>
