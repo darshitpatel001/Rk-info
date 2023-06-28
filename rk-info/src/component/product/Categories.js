@@ -5,6 +5,7 @@ import Categories3 from '../assets/img/keyboard.png'
 import 'animate.css';
 import { WOW } from 'wowjs';
 
+
 export default function Categories() {
     useEffect(() => {
         const wow = new WOW();
@@ -23,26 +24,26 @@ export default function Categories() {
                 </div>
             </section>
             <div className='container  wow animate__backInUp'>
-                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                    <div class="col-span-1 Categories_item">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                    <div className="col-span-1 Categories_item">
                         <img src={Categories1} className="img-fluid imgsss " alt="" />
                         <div className='Categories'>
                             <h1>Asus Wifi Router</h1>
                         </div>
                     </div>
-                    <div class="col-span-1 Categories_item">
+                    <div className="col-span-1 Categories_item">
                         <img src={Categories2} className="img-fluid imgsss " alt="" />
                         <div className='Categories'>
                             <h1>Mouse</h1>
                         </div>
                     </div>
-                    <div class="col-span-1 Categories_item">
+                    <div className="col-span-1 Categories_item">
                         <img src={Categories3} className="img-fluid imgsss " alt="" />
                         <div className='Categories'>
                             <h1>Keyboard</h1>
                         </div>
                     </div>
-                    <div class="col-span-1 Categories_item">
+                    <div className="col-span-1 Categories_item">
                         <div className='container Categorie text-center wow animate__rubberBand'>
                             <p className='text-[35px] text-[#1D3A59] p-3'>Product Categories</p>
                             <hr />

@@ -7,6 +7,7 @@ import Smartdoor from '../assets/img/Rectangle 15.jpg'
 import 'animate.css';
 import { WOW } from 'wowjs';
 
+
 export default function Card() {
     useEffect(() => {
         const wow = new WOW();

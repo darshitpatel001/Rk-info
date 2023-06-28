@@ -62,26 +62,26 @@ export default function Message() {
                                     <div className="col">
                                         <div className="form-outline">
 
-                                            <label className="form-label" for="yname">Your Name</label>
+                                            <label className="form-label" htmlFor="yname">Your Name</label>
                                             <input type="text" className="form-control" />
                                         </div>
                                     </div>
                                     <div className="col">
                                         <div className="form-outline">
-                                            <label className="form-label" for="yemail">Your Email</label>
+                                            <label className="form-label" htmlFor="yemail">Your Email</label>
                                             <input type="email" className="form-control" />
                                         </div>
                                     </div>
                                 </div>
 
                                 <div className="form-outline mb-4">
-                                    <label className="form-label" for="form6Example4">Your  Subject</label>
+                                    <label className="form-label" htmlFor="form6Example4">Your  Subject</label>
                                     <input type="text" className="form-control" />
                                 </div>
 
 
                                 <div className="form-outline mb-4">
-                                    <label className="form-label" for="form6Example7">Messages</label>
+                                    <label className="form-label" htmlFor="form6Example7">Messages</label>
                                     <textarea className="form-control" rows="4"></textarea>
                                 </div>
 

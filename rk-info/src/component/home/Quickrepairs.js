@@ -58,9 +58,9 @@ export default function Quickrepairs() {
                                     </svg>
                                     <span>
 
-                                        <p className="ml-3  text-start">
+                                        <div className="ml-3  text-start">
                                             <h1 className='text-[#1D3A59]'>Adipiscing eli sed eiusmod</h1>
-                                        </p>
+                                        </div>
                                     </span>
                                 </div>
                                 <div className="service">
@@ -81,9 +81,9 @@ export default function Quickrepairs() {
                                         ></path>
                                     </svg>
                                     <span>
-                                        <p className="ml-3  text-start">
+                                        <div className="ml-3  text-start">
                                             <h1 className='text-[#1D3A59]'>Tempor incididunt</h1>
-                                        </p>
+                                        </div>
                                     </span>
                                 </div>
                                 <div className="service pb-3">
@@ -104,9 +104,9 @@ export default function Quickrepairs() {
                                         ></path>
                                     </svg>
                                     <span>
-                                        <p className="ml-3  text-start">
+                                        <div className="ml-3  text-start">
                                             <h1 className='text-[#1D3A59]'>Labore et dolore magna</h1>
-                                        </p>
+                                        </div>
                                     </span>
                                 </div>
 

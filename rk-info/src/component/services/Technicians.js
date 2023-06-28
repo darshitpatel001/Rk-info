@@ -5,11 +5,11 @@ export default function Technicians() {
     return (
         <>
 
-            <section class="inner-page">
-                <div class="container">
-                    <div class="row">
+            <section className="inner-page">
+                <div className="container">
+                    <div className="row">
 
-                        <div class="col-lg-6 pt-16">
+                        <div className="col-lg-6 pt-16">
                             <h1 className='quick11 wow animate__backInLeft' data-wow-duration="1s">Our experienced technicians<br /> are ready to repair your<br /> device right now!</h1>
                             <p className='quick22 wow animate__backInLeft' data-wow-duration="1s">consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper<br /> mattis, more pulvinar dapibus leo.</p>
                             <div className=' wow animate__backInLeft' data-wow-duration="2s">
@@ -19,11 +19,11 @@ export default function Technicians() {
                                     </div>
                                     <span>
 
-                                        <p className="ml-3  text-start">
+                                        <div className="ml-3  text-start">
                                             <h1 className='text-[#1D3A59]'>Repair for pesonal device</h1>
                                             <p className='text-[#727E8E]'>Pretium facilisi porttitor vulputate nostra dolor tincidunt molestie sem fames.</p>
 
-                                        </p>
+                                        </div>
                                     </span>
                                 </div>
                                 <div className="service">
@@ -32,11 +32,11 @@ export default function Technicians() {
                                     </div>
                                     <span>
 
-                                        <p className="ml-3  text-start">
+                                        <div className="ml-3  text-start">
                                             <h1 className='text-[#1D3A59]'>Repair for business device</h1>
                                             <p className='text-[#727E8E]'>Quisque felis sed nascetur platea congue habitasse sollicitudin suspendisse iaculis </p>
 
-                                        </p>
+                                        </div>
                                     </span>
                                 </div>
                                 <div className="service">
@@ -45,18 +45,18 @@ export default function Technicians() {
                                     </div>
                                     <span>
 
-                                        <p className="ml-3  text-start">
+                                        <div className="ml-3  text-start">
                                             <h1 className='text-[#1D3A59]'>Claim Repair Assurance</h1>
                                             <p className='text-[#727E8E]'>Pretium facilisi porttitor vulputate nostra dolor tincidunt molestie sem fames.</p>
 
-                                        </p>
+                                        </div>
                                     </span>
                                 </div>
 
                             </div>
                         </div>
 
-                        <div class="col-lg-6">
+                        <div className="col-lg-6">
                             <img
                                 className='service1 repire imgss wow animate__zoomInUp'
                                 data-wow-duration="3s"
