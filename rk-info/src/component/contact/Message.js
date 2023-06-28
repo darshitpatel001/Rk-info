@@ -86,7 +86,7 @@ export default function Message() {
                                 </div>
 
                                 <div className='text-center'>
-                                    <a href="" className="btn-get-startedd scrollto">Free Consultation</a>
+                                <button type="submit"  className="btn-get-startedd scrollto">Free Consultation</button>
                                 </div>
                             </form>
                         </div>
