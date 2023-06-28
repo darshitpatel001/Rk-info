@@ -9,7 +9,7 @@ export default function Sevices() {
                     <div className="container-fluid px-20">
                         <h2 className='text-[40px] cons-fon'><b>We're Here To Help You Computer Repair Service</b></h2><br />
                         <p className='text-[20px]'>We handle all the major smartphones are different brands. Using the best quality little <br />expensive toolsand equipment help us to repair phones in a much convenient<br /> way.</p>
-                        <a href="/contact" className="btn-get-startedd animate_animated animate_fadeInUp scrollto">Free Consultation</a>
+                        <a href="" className="btn-get-startedd animate_animated animate_fadeInUp scrollto">Free Consultation</a>
                     </div>
                 </div>
             </div>

@@ -17,7 +17,7 @@ export default function Ourvalue() {
             </div>
             <div className='container pt-10 pb-20'>
                 <div className='row'>
-                    <div class="col-lg-6 p-4">
+                    <div className="col-lg-6 p-4">
                         <div className="boxx bg-white wow animate__backInRight" data-wow-duration="1s">
 
                             <div className='row'>
@@ -38,7 +38,7 @@ export default function Ourvalue() {
                         </div>
                     </div>
 
-                    <div class="col-lg-6 p-4">
+                    <div className="col-lg-6 p-4">
                         <div className="boxx bg-white wow animate__backInLeft" data-wow-duration="1s">
 
                             <div className='row'>
