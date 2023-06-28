@@ -8,7 +8,7 @@ export default function Message() {
             <div className='bg-[#F3F5F9]'>
                 <div className="container pt-24 pb-24">
 
-                    <div className="text-center wow animate__backInDown" data-wow-duration="2s">
+                    <div className="text-center wow animate__backInDown" data-wow-duration="1s">
                         <h1 className='text-[45px] text-[#027BB1] pb-4'>Send Us Message</h1>
                         <p className='text-[20px] text-[#727E8E]'>Do you have a question for us? we'd love to here from you and we would be happy to answer<br /> your questions. Reach out to us and we'll respond as soon as we can.</p>
                     </div>
@@ -20,7 +20,7 @@ export default function Message() {
                     <div className='row'>
                         <div className='col-lg-4'>
                             <div className='container bg-[#FFE1D2] p-6 rounded message'>
-                                <div className='wow animate__backInRight' data-wow-duration="3s">
+                                <div className='wow animate__backInRight' data-wow-duration="1s">
                                     <h1 className='pt-4 text-[#1D3A59] text-[25px]'><b>Contact Information</b></h1>
                                     <h1 className='pt-4 pb-5 text-[#1D3A59] text-[18 px]'>In publishing and graphic design, Lorem-
                                         ipsu is a ithout relying on meaning content.</h1>

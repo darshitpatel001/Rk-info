@@ -20,7 +20,8 @@ export default function Footer() {
                   <li><a href="">Facebook</a></li>
                   <li><a href="">Twitter</a></li>
                   <li><a href="">Instagram</a></li>
-                  <li><a href="">Whatsapp</a></li>
+                  <li><a href="https://api.whatsapp.com/send?phone=9725483242">Whatsapp</a>
+                  </li>
                 </ul>
               </div>
 
