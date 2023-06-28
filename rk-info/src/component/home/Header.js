@@ -12,24 +12,24 @@ export default function Header() {
       Path: "/",
     },
     {
-      Title: "About Us",  
+      Title: "About Us",
       Path: "/abouts"
 
     },
     {
-      Title: "Sevices",  
+      Title: "Sevices",
       Path: "/services"
     },
     {
-      Title: "Our Client",  
+      Title: "Our Client",
       Path: "/clientreview"
     },
     {
-      Title: "Product",  
+      Title: "Product",
       Path: "/product"
     },
     {
-      Title: "Contact",  
+      Title: "Contact",
       Path: "/contact"
     }
   ];
