@@ -12,11 +12,11 @@ export default function Ourclient() {
         <>
             <Clientreview />
             <Clientreview1 />
-            <Clientreview2/>
-            <Clientreview3/>
-            <Clientreview4/>
-            <Clientreview5/>
-            <Clientreview6/>
+            <Clientreview2 />
+            <Clientreview3 />
+            <Clientreview4 />
+            <Clientreview5 />
+            <Clientreview6 />
             <Footer />
         </>
     )

@@ -11,10 +11,10 @@ export default function Experience() {
     }, []);
     return (
         <>
-            <div class="container-fluid">
-                <div class="row">
+            <div className="container-fluid">
+                <div className="row">
 
-                    <div class="col-lg-7 col-md-6">
+                    <div className="col-lg-7 col-md-6">
                         <div className="pb-16">
                             <div className="consultation pt-10 content-start  wow animate__backInLeft">
                                 <div className="container-fluid px-20">
@@ -27,10 +27,10 @@ export default function Experience() {
                         </div>
                     </div>
 
-                    <div class="col-lg-5 col-md-6 pt-2 pb-10">
+                    <div className="col-lg-5 col-md-6 pt-2 pb-10">
                         {/* <div className='Experience'> */}
                         <img src={Technicians1} className="img-fluid w-[500px] wow animate__zoomInUp" />
-                        {/* <div class="count-boxx  Experience2">
+                        {/* <div className="count-boxx  Experience2">
                                 <img src={social} className='sociall text-sidee-imagee '/>
                                <h1 className='text-[#027BB1] Expe-font'>10+ Years of Experience</h1>
                                 <p className='text-[#727E8E] Expe-font1'>Pulvinar placerat risus pharetra ut felis potenti suspendisse congue aliquet laoreet tristique.</p>

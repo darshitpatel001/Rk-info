@@ -9,10 +9,10 @@ export default function Products() {
     return (
         <>
             <Product />
-            <Categories/>
-            <Categorie1/>
-            <Categorie2/>
-            <Updates/>
+            <Categories />
+            <Categorie1 />
+            <Categorie2 />
+            <Updates />
         </>
     )
 }

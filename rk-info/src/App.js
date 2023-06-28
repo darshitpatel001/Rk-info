@@ -11,22 +11,22 @@ import Products from './Products'
 
 function App() {
 
-    return (
-      <>
-        <BrowserRouter>
-          <Header />
-          <Routes>
-            <Route path='/' element={<Home />}></Route>
-            <Route path='/clientreview' element={<Ourclient />}></Route>
-            <Route path='/services' element={<Services/>}></Route>
-            <Route path='/abouts' element={<Aboutus/>}></Route>
-            <Route path='/contact' element={<Contact/>}></Route>
-            <Route path='/product' element={<Products/>}></Route>
-          </Routes>
-          <Footer/>
-        </BrowserRouter>
-      </>
-    );
-  }
+  return (
+    <>
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path='/' element={<Home />}></Route>
+          <Route path='/clientreview' element={<Ourclient />}></Route>
+          <Route path='/services' element={<Services />}></Route>
+          <Route path='/abouts' element={<Aboutus />}></Route>
+          <Route path='/contact' element={<Contact />}></Route>
+          <Route path='/product' element={<Products />}></Route>
+        </Routes>
+        <Footer />
+      </BrowserRouter>
+    </>
+  );
+}
 
-  export default App;
+export default App;

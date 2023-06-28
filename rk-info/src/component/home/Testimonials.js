@@ -8,8 +8,8 @@
 
 //     return (
 //         <>
-//             <div class="testimonials-clean bg-[#F3F5F9]">
-//                 <div class="container">
+//             <div className="testimonials-clean bg-[#F3F5F9]">
+//                 <div className="container">
 //                     <section id="cta" className="cta">
 //                         <div className="container">
 //                             <div className="text-center wow animate__backInDown" data-wow-duration="2s">
@@ -18,35 +18,35 @@
 //                             </div>
 //                         </div>
 //                     </section>
-//                     <div class="row people">
-//                         <div class="col-md-6 col-lg-4 itemm">
-//                             <div class="box">
-//                                 <p class="cte2">Ignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi. sint occaecatii gnissimos ducimus qui blanditiis praesentium.</p>
+//                     <div className="row people">
+//                         <div className="col-md-6 col-lg-4 itemm">
+//                             <div className="box">
+//                                 <p className="cte2">Ignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi. sint occaecatii gnissimos ducimus qui blanditiis praesentium.</p>
 //                             </div>
-//                             <div class="author">
+//                             <div className="author">
 //                                 <img src={Testimonials2} />
-//                                 <h5 class="cte1"><b>Helen Lee</b></h5>
-//                                 <p class="cte2">Artist</p>
+//                                 <h5 className="cte1"><b>Helen Lee</b></h5>
+//                                 <p className="cte2">Artist</p>
 //                             </div>
 //                         </div>
-//                         <div class="col-md-6 col-lg-4 itemm">
-//                             <div class="box">
-//                             <p class="cte2">Ignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi. sint occaecatii gnissimos ducimus qui blanditiis praesentium.</p>
+//                         <div className="col-md-6 col-lg-4 itemm">
+//                             <div className="box">
+//                             <p className="cte2">Ignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi. sint occaecatii gnissimos ducimus qui blanditiis praesentium.</p>
 //                             </div>
-//                             <div class="author">
+//                             <div className="author">
 //                                 <img src={Testimonials2} />
-//                                 <h5 class="cte1"><b>Alex Madson</b></h5>
-//                                 <p class="cte2">Student</p>
+//                                 <h5 className="cte1"><b>Alex Madson</b></h5>
+//                                 <p className="cte2">Student</p>
 //                             </div>
 //                         </div>
-//                         <div class="col-md-6 col-lg-4 itemm">
-//                             <div class="box">
-//                             <p class="cte2">Ignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi. sint occaecatii gnissimos ducimus qui blanditiis praesentium.</p>
+//                         <div className="col-md-6 col-lg-4 itemm">
+//                             <div className="box">
+//                             <p className="cte2">Ignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi. sint occaecatii gnissimos ducimus qui blanditiis praesentium.</p>
 //                             </div>
-//                             <div class="author">
+//                             <div className="author">
 //                                 <img src={Testimonials3} />
-//                                 <h5 class="cte1"><b>Helen Lee</b></h5>
-//                                 <p class="cte2">Artist</p>
+//                                 <h5 className="cte1"><b>Helen Lee</b></h5>
+//                                 <p className="cte2">Artist</p>
 //                             </div>
 //                         </div>
 //                     </div>

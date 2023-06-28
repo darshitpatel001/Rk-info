@@ -5,7 +5,7 @@ export default function About() {
     <>
       <div className="containerrr About">
         <h1 className='text-center text-[40px]'>About us</h1>
-        <div class="containerr">
+        <div className="containerr">
           <ol>
             <li><a href="/">Home</a></li>
             <li>About us</li>

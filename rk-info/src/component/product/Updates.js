@@ -3,7 +3,7 @@ import React from 'react'
 export default function Updates() {
     return (
         <>
-                 <div className="footer-newsletter">
+            <div className="footer-newsletter">
                 <div className="container pt-5 pb-20">
                     <div className="row justify-content-center">
                         <div className="col-lg-12 text-center wow animate__jackInTheBox updates" data-wow-duration="1s">

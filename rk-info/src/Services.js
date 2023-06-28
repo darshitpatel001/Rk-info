@@ -12,10 +12,10 @@ export default function s() {
     <>
       <Home />
       <Technicians />
-      <Professional/>
-      <Consultation/>
-      <Brands/>
-      <Updates/>
+      <Professional />
+      <Consultation />
+      <Brands />
+      <Updates />
     </>
   )
 }

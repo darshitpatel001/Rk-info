@@ -5,7 +5,7 @@ export default function Home() {
     <>
       <div className="containerrr Home">
         <h1 className='text-center text-[40px]'>Services</h1>
-        <div class="containerr">
+        <div className="containerr">
           <ol>
             <li><a href="/">Home</a></li>
             <li>Services</li>

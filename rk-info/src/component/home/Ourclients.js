@@ -43,8 +43,8 @@ export default function Ourclients() {
             <div className='clientt'><img src={Client10} /></div>
 
           </div>
-          <button  className="btn ">  <a href="/clientreview" class="hvr-icon-wobble-horizontal ">
-            Try Us Out <i class="fa fa-arrow-right hvr-icon"></i>
+          <button  className="btn ">  <a href="/clientreview" className="hvr-icon-wobble-horizontal ">
+            Try Us Out <i className="fa fa-arrow-right hvr-icon"></i>
           </a></button>
 
           {/* <div className="row">

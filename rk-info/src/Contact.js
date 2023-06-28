@@ -8,9 +8,9 @@ export default function Contact() {
     return (
         <>
             <Contacts />
-            <Experience/>
-            <Message/>
-            <Update/>
+            <Experience />
+            <Message />
+            <Update />
         </>
     )
 }

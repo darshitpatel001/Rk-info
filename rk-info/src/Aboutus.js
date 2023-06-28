@@ -9,12 +9,12 @@ import Updates from './component/about/Updates'
 export default function Aboutus() {
   return (
     <>
-        <About/>
-        <Experience/>
-        <Sevices/>
-        <Brand/>
-        <Ourvalue/>
-        <Updates/>
+      <About />
+      <Experience />
+      <Sevices />
+      <Brand />
+      <Ourvalue />
+      <Updates />
     </>
   )
 }

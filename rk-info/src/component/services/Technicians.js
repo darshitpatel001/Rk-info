@@ -78,7 +78,7 @@ export default function Technicians() {
                     </div>
                 </div>
             </section>
-            
+
         </>
     )
 }

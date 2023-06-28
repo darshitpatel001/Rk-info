@@ -5,7 +5,7 @@ export default function Contacts() {
     <>
        <div className="containerrr Contact">
         <h1 className='text-center text-[40px]'>Contact</h1>
-        <div class="containerr">
+        <div className="containerr">
           <ol>
             <li><a href="/">Home</a></li>
             <li>Contact</li>
