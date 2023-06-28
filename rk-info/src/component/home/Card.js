@@ -23,7 +23,7 @@ export default function Card() {
                                 <div className="member-info-content">
                                     <h6>Computer System</h6>
                                     <button href="" className="member-infoo">
-                                        <a href="/product" class="hvr-icon-wobble-horizontal ">Shop Now <i class="fa fa-arrow-right hvr-icon"></i>
+                                        <a href="/product" className="hvr-icon-wobble-horizontal ">Shop Now <i className="fa fa-arrow-right hvr-icon"></i>
                                         </a>
                                     </button>
                                 </div>
@@ -35,7 +35,7 @@ export default function Card() {
                                 <div className="member-info-content">
                                     <h5 className="member-infooo">CCTV Camera</h5>
                                     <button href="" className="member-infoo">
-                                        <a href="/product" class="hvr-icon-wobble-horizontal ">Shop Now <i class="fa fa-arrow-right hvr-icon"></i>
+                                        <a href="/product" className="hvr-icon-wobble-horizontal ">Shop Now <i className="fa fa-arrow-right hvr-icon"></i>
                                         </a>
                                     </button>
                                 </div>
@@ -48,7 +48,7 @@ export default function Card() {
                                 <div className="member-info-content">
                                     <h6>EPABX Telephone</h6>
                                     <button href="" className="member-infoo">
-                                        <a href="/product" class="hvr-icon-wobble-horizontal ">Shop Now <i class="fa fa-arrow-right hvr-icon"></i>
+                                        <a href="/product" className="hvr-icon-wobble-horizontal ">Shop Now <i className="fa fa-arrow-right hvr-icon"></i>
                                         </a>
                                     </button>
                                 </div>
@@ -60,7 +60,7 @@ export default function Card() {
                                 <div className="member-info-content">
                                     <h6>Smart Door Lock</h6>
                                     <button href="" className="member-infoo">
-                                        <a href="/product" class="hvr-icon-wobble-horizontal ">Shop Now <i class="fa fa-arrow-right hvr-icon"></i>
+                                        <a href="/product" className="hvr-icon-wobble-horizontal ">Shop Now <i className="fa fa-arrow-right hvr-icon"></i>
                                         </a>
                                     </button>
                                 </div>

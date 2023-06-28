@@ -12,8 +12,8 @@ export default function Updates() {
                         </div>
                         <div className="col-lg-6">
                             <form action="" method="post">
-                                <input type="email" placeholder='Enter Your Email Address' name="email" /><input type="submit" value="Subscribe" className='btn' />
-
+                                <input for="email" type="email" placeholder='Enter Your Email Address' name="email" />
+                                <input for="submit" type="submit" value="Subscribe" className='btn' />
                             </form>
                             <input type="checkbox" className="form-check-input" id="check1" name="option1" value="something" />
                             <label className="form-check-label text-[#727E85]" for="check1"> I agree to the <a href='' className='privacy'>Privacy Policy.</a></label>

@@ -72,7 +72,7 @@ export default function Header() {
             </li>
             {NavigationLink.map((item, index) => {
               return (
-                <li key="index">
+                <li key={index}>
                   <a
                     href={item.Path}
                     className="block  py-2 pl-5 pr-4 text-base  md:border-0 md:p-0 hover-underline-animation"
@@ -138,7 +138,7 @@ export default function Header() {
             <ul className="flex items-center flex-col p-4 mt-4 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 ">
               {NavigationLink.map((item, index) => {
                 return (
-                  <li key="index">
+                  <li key={index}>
                     <a
                       href={item.Path}
                       className="block  py-2 pl-5 pr-4 text-base  md:border-0 md:p-0  hover-underline-animation"
