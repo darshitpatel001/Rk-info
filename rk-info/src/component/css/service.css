@@ -816,3 +816,6 @@ body {
   color: #1D3A59;
   padding: 12px;
 }
+.Categories_item:hover img {
+  transform: scale(.99);
+}

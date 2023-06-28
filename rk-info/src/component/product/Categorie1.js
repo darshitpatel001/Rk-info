@@ -17,26 +17,26 @@ export default function Categorie1() {
     <>
       <div className='container pt-24  wow animate__backInUp'>
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-          <div class="col-span-1">
+         <div class="col-span-1 Categories_item">
             <img src={Categories1} className="img-fluid imgsss " alt="" />
             <div className='Categories'>
               <h1>Computer System</h1>
             </div>
           </div>
-          <div class="col-span-1">
+         <div class="col-span-1 Categories_item">
             <img src={Categories2} className="img-fluid imgsss " alt="" />
             <div className='Categories'>
               <h1>Laptop</h1>
             </div>
           </div>
-          <div class="col-span-1">
+         <div class="col-span-1 Categories_item">
             <img src={Categories3} className="img-fluid imgsss " alt="" />
             <div className='Categories'>
               <h1>CCTV Camera</h1>
             </div>
           </div>
 
-          <div class="col-span-1">
+         <div class="col-span-1 Categories_item">
             <div className='container Categorie1 wow animate__rubberBand'>
               <p className='text-[35px] text-[#1D3A59] p-3 text-center'>Product Categories</p>
               <hr />
@@ -93,18 +93,18 @@ export default function Categorie1() {
               </ul>
             </div>
           </div>
-          <div class="col-span-1">
+         <div class="col-span-1 Categories_item">
             <img src={Categories4} className="img-fluid imgsss " alt="" />
             <div className='Categories'>
               <h1>Nokee Door Lock</h1>
             </div>
           </div>
-          <div class="col-span-1">
+         <div class="col-span-1 Categories_item">
             <img src={Categories5} className="img-fluid imgsss " alt="" />
             <div className='Categories'>
               <h1>CCTV Camera</h1>
             </div>
-          </div>     <div class="col-span-1">
+          </div>    <div class="col-span-1 Categories_item">
             <img src={Categories6} className="img-fluid imgsss " alt="" />
             <div className='Categories'>
               <h1>Video Door</h1>

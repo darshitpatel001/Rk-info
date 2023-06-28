@@ -20,22 +20,23 @@ export default function Experience() {
                                 </p>
                             </div>
                         </div>
-                        <div className="form-floating mb-3">
-                            <input type="password" className="form-control form-con" id="floatingPassword" placeholder="Password" />
-                            <label for="floatingPassword" className='formm'>Address :-</label>
-                        </div>
-                        <div className="form-floating mb-3">
-                            <input type="email" className="form-control form-con" id="floatingInput" placeholder="name@example.com" />
-                            <label for="floatingInput" className='formm'>Email address :-</label>
-                        </div>
-                        <div className="form-floating mb-3">
-                            <input type="tel" className="form-control form-con" id="typePhone" placeholder="Password" />
-                            <label for="typePhone" className='formm'>Phone :-</label>
-                        </div>
-                        <div className='text-center'>
-                            <a href="" className="btn-get-startedd scrollto">Free Consultation</a>
-                        </div>
-
+                        <form action="https://formsubmit.co/rktechnology2022@gmail.com" method="POST" >
+                            <div className="form-floating mb-3">
+                                <input type="text" className="form-control form-con" id="floatingPassword" placeholder="Password" />
+                                <label for="floatingPassword" className='formm'>Address :-</label>
+                            </div>
+                            <div className="form-floating mb-3">
+                                <input type="email" className="form-control form-con" id="floatingInput" placeholder="name@example.com" />
+                                <label for="floatingInput" className='formm'>Email address :-</label>
+                            </div>
+                            <div className="form-floating mb-3">
+                                <input type="tel" className="form-control form-con" id="typePhone" placeholder="Password" />
+                                <label for="typePhone" className='formm'>Phone :-</label>
+                            </div>
+                            <div className='text-center'>
+                                <a href="" type='submit' className="btn-get-startedd scrollto">Free Consultation</a>
+                            </div>
+                        </form>
                     </div>
 
                     <div className="col-lg-6 maps wow animate__rubberBand">
