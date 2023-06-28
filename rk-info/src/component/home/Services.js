@@ -27,7 +27,7 @@ export default function Services() {
           <div className="row">
 
             <div className="col-xl-4 col-lg-4 col-md-6">
-              <div className="Product wow animate__backInUp" data-wow-duration="1s">
+              <div className="Product wow animate__backInUp Categories_item" data-wow-duration="1s">
                 <img src={Services1} className="img-fluid imgss" alt="" />
                 <div className='cte1'>
                   <h1 className='pt-2'>Accessories, Service</h1>
@@ -43,7 +43,7 @@ export default function Services() {
             </div>
 
             <div className="col-xl-4 col-lg-4 col-md-6">
-              <div className="Product wow animate__backInUp" data-wow-duration="1s">
+              <div className="Product wow animate__backInUp Categories_item" data-wow-duration="1s">
                 <img src={Services2} className="img-fluid imgss" alt="" />
                 <div className='cte1'>
                   <h1 className='pt-2'>Discount, Tablet</h1>
@@ -59,7 +59,7 @@ export default function Services() {
             </div>
 
             <div className="col-xl-4 col-lg-4 col-md-6">
-              <div className="Product wow animate__backInUp" data-wow-duration="1s">
+              <div className="Product wow animate__backInUp Categories_item" data-wow-duration="1s">
                 <img src={Services3} className="img-fluid imgss" alt="" />
                 <div className='cte1'>
                   <h1 className='pt-2'>Laptop, New</h1>
