@@ -103,7 +103,7 @@ export default function Header() {
               type="button"
             >
               <a
-                href=""
+                href="/contact"
                 className="text-white bg-[#FF7400] hover-underline-animation hover:bg-[#ff8a2a] font-medium rounded-full text-sm px-2 text-[12px] py-1 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                 target="\"
               >
@@ -156,7 +156,7 @@ export default function Header() {
                   type="button"
                 >
                   <a
-                    href=""
+                    href="/contact"
                     className="block py-2 pl-5 pr-4 text-base md:border-0 md:p-0"
                     target="_blank"
                   >
