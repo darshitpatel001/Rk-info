@@ -21,7 +21,6 @@ export default function Updates() {
                     </div>
                 </div>
             </div>
-            
         </>
     )
 }
