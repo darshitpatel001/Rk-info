@@ -75,7 +75,7 @@ export default function Message() {
                                 </div>
 
 
-                                <div className="form-outline mb-4">
+                                <div className="form-outline mb-3">
                                     <label className="form-label text-[#6F6F6F]" htmlFor="message">Messages</label>
                                     <textarea class="form-control" name="message" rows="4" required></textarea>
                                 </div>
@@ -83,8 +83,10 @@ export default function Message() {
                                 <div className='text-center'>
                                     <button type="submit" className="btn-get-startedd scrollto">Free Consultation</button>
                                 </div>
+
                             </form>
                         </div>
+                        
                     </div>
                 </div>
             </div>
