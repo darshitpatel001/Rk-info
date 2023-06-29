@@ -20,18 +20,18 @@ export default function Experience() {
                                 </p>
                             </div>
                         </div>
-                        <form action="https://formsubmit.co/rktechnology2022@gmail.com" method="POST" >
+                        <form action="https://formsubmit.co/darshitakbari9999@gmail.com" method="POST" >
                             <div className="form-floating mb-3">
-                                <input type="text" className="form-control form-con" id="floatingPassword" placeholder="Password" />
-                                <label htmlFor="floatingPassword" className='formm'>Address :-</label>
+                                <input type="text" name='address' className="form-control form-con" />
+                                <label htmlFor="address" className='formm'>Address :-</label>
                             </div>
                             <div className="form-floating mb-3">
-                                <input type="email" className="form-control form-con" id="floatingInput" placeholder="name@example.com" />
-                                <label htmlFor="floatingInput" className='formm'>Email address :-</label>
+                                <input type="email" name='email' className="form-control form-con" />
+                                <label htmlFor="email" className='formm'>Email address :-</label>
                             </div>
                             <div className="form-floating mb-3">
-                                <input type="tel" className="form-control form-con" id="typePhone" placeholder="Password" />
-                                <label htmlFor="typePhone" className='formm'>Phone :-</label>
+                                <input type="tel" className="form-control form-con" name="mobile" pattern="[0-9]{10}" required />
+                                <label htmlFor="mobile" className='formm'>Phone :-</label>
                             </div>
                             <div className='text-center'>
                                 <button type="submit" className="btn-get-startedd scrollto">Free Consultation</button>

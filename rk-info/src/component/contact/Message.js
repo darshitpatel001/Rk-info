@@ -56,37 +56,32 @@ export default function Message() {
                             </div>
                         </div>
                         <div className='col-lg-8'>
-                            <form action="https://formsubmit.co/rktechnology2022@gmail.com" method="POST"  className='pt-5' >
+                            <form action="https://formsubmit.co/darshitakbari9999@gmail.com" method="POST" className='pt-5' >
 
                                 <div className="row mb-4">
                                     <div className="col">
-                                        <div className="form-outline">
-
-                                            <label className="form-label" htmlFor="yname">Your Name</label>
-                                            <input type="text" className="form-control" />
-                                        </div>
+                                        <label className="form-label text-[#6F6F6F]" htmlFor="name">Your Name</label>
+                                        <input type="text" className="form-control" name="name" />
                                     </div>
                                     <div className="col">
-                                        <div className="form-outline">
-                                            <label className="form-label" htmlFor="yemail">Your Email</label>
-                                            <input type="email" className="form-control" />
-                                        </div>
+                                        <label className="form-label text-[#6F6F6F]" htmlFor="email">Your email</label>
+                                        <input type="email" className="form-control" name="email" />
                                     </div>
                                 </div>
 
                                 <div className="form-outline mb-4">
-                                    <label className="form-label" htmlFor="form6Example4">Your  Subject</label>
-                                    <input type="text" className="form-control" />
+                                    <label className="form-label text-[#6F6F6F]" htmlFor="subject">Your subject</label>
+                                    <input type="text" className="form-control" name="subject" />
                                 </div>
 
 
                                 <div className="form-outline mb-4">
-                                    <label className="form-label" htmlFor="form6Example7">Messages</label>
-                                    <textarea className="form-control" rows="4"></textarea>
+                                    <label className="form-label text-[#6F6F6F]" htmlFor="message">Messages</label>
+                                    <textarea class="form-control" name="message" rows="4" required></textarea>
                                 </div>
 
                                 <div className='text-center'>
-                                <button type="submit"  className="btn-get-startedd scrollto">Free Consultation</button>
+                                    <button type="submit" className="btn-get-startedd scrollto">Free Consultation</button>
                                 </div>
                             </form>
                         </div>
