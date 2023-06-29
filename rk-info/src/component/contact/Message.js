@@ -55,7 +55,7 @@ export default function Message() {
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div className='col-lg-8'>
                             <form action="https://formsubmit.co/darshitakbari9999@gmail.com" method="POST" className='pt-5' >
 
@@ -74,7 +74,6 @@ export default function Message() {
                                     <label className="form-label text-[#6F6F6F]" htmlFor="subject">Your subject</label>
                                     <input type="text" className="form-control" name="subject" />
                                 </div>
-
 
                                 <div className="form-outline mb-3">
                                     <label className="form-label text-[#6F6F6F]" htmlFor="message">Messages</label>
