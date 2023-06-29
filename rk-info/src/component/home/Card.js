@@ -18,6 +18,7 @@ export default function Card() {
             <section id="team" className="team section-bg  pt-20 pb-20 wow animate__backInUp" data-wow-duration="1s">
                 <div className="container">
                     <div className="row">
+                        
                         <div className="col-xl-3 col-lg-4 col-md-6">
                             <div className="member">
                                 <img src={Computer} className="img-fluid imgsss " alt="" />
@@ -55,6 +56,7 @@ export default function Card() {
                                 </div>
                             </div>
                         </div>
+
                         <div className="col-xl-3 col-lg-4 col-md-6">
                             <div className="member">
                                 <img src={Smartdoor} className="img-fluid imgsss" alt="" />
@@ -67,6 +69,7 @@ export default function Card() {
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </section>
