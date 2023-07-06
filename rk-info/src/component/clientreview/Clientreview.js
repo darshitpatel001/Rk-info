@@ -36,7 +36,7 @@ export default function Clientreview() {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-5">
-                        <img src={Review} className="img-fluid imgss wow animate__backInLeft" data-wow-duration="1s" />
+                        <img src={Review} className="img-fluid imgss wow animate__backInLeft"  alt='' data-wow-duration="1s" />
                     </div>
                     <div className="col-lg-7 d-flex flex-column justify-content-center">
                         <div className="content bg-[#ffe9e9] border-dashed border-2 border-[#FB2C29] wow animate__backInRight" data-wow-duration="1s">
@@ -61,7 +61,7 @@ export default function Clientreview() {
                     </div>
 
                     <div className="col-lg-5">
-                        <img src={Review1} className="img-fluid imgss  wow animate__backInLeft" data-wow-duration="1s" />
+                        <img src={Review1} alt='' className="img-fluid imgss  wow animate__backInLeft" data-wow-duration="1s" />
                     </div>
                 </div>
             </div>
@@ -70,7 +70,7 @@ export default function Clientreview() {
                 <div className="row">
 
                     <div className="col-lg-5">
-                        <img src={Review2} className="img-fluid imgss  wow animate__backInLeft" data-wow-duration="1s" />
+                        <img src={Review2} alt='' className="img-fluid imgss  wow animate__backInLeft" data-wow-duration="1s" />
                     </div>
 
                     <div className="col-lg-7 d-flex flex-column justify-content-center">

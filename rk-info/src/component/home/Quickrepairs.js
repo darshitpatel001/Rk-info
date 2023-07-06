@@ -18,6 +18,7 @@ export default function Quickrepairs() {
                                 className='service1 repire imgss wow animate__zoomInUp'
                                data-wow-duration="1s"
                                 src={Services1}
+                                alt=''
                             />
                         </div>
 
@@ -26,11 +27,13 @@ export default function Quickrepairs() {
                                 className='service3 repir imgss wow animate__zoomInUp'
                                 data-wow-duration="1s"
                                 src={Services2}
+                                alt=''
                             />
                             <img
                                 className='service3 repirr imgss wow animate__zoomInUp'
                                 data-wow-duration="1s"
                                 src={Services3}
+                                alt=''
                             />
                         </div>
 

@@ -23,7 +23,7 @@ export default function Brands() {
                             <div className='wow animate__backInRight' data-wow-duration="1s">
                                 <div className="service mt-10">
                                     <div className="text-sidee-imageee">
-                                        <img src={Brands1} />
+                                        <img src={Brands1} alt=""/>
                                     </div>
                                     <span>
 
@@ -36,7 +36,7 @@ export default function Brands() {
                                 </div>
                                 <div className="service">
                                     <div className="text-sidee-imageee">
-                                        <img src={Brands2} />
+                                        <img src={Brands2} alt=""/>
                                     </div>
                                     <span>
 
@@ -55,7 +55,7 @@ export default function Brands() {
                             <div className='wow animate__backInLeft' data-wow-duration="1s">
                                 <div className="service mt-10">
                                     <div className="text-sidee-imageee">
-                                        <img src={Brands3} />
+                                        <img src={Brands3} alt="" />
                                     </div>
                                     <span>
 
@@ -68,7 +68,7 @@ export default function Brands() {
                                 </div>
                                 <div className="service">
                                     <div className="text-sidee-imageee">
-                                        <img src={Brands4} />
+                                        <img src={Brands4} alt="" />
                                     </div>
                                     <span>
 

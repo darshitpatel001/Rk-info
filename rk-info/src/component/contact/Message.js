@@ -26,7 +26,7 @@ export default function Message() {
                                         ipsu is a ithout relying on meaning content.</h1>
 
                                     <div className="icon">
-                                        <img src={icon} />
+                                        <img src={icon}  alt=''/>
                                         <div className="text">
                                             <h1 className='px-2 text-[#1D3A59]'>
                                                 <ul>
@@ -38,7 +38,7 @@ export default function Message() {
                                     </div>
 
                                     <div className="icon pt-8">
-                                        <img src={icon1} />
+                                        <img src={icon1}  alt=''/>
                                         <div className="text">
                                             <h1 className='px-2 text-[#1D3A59]'>rktechnology2022@gmail.com</h1>
                                         </div>
@@ -46,7 +46,7 @@ export default function Message() {
 
 
                                     <div className="icon pt-8">
-                                        <img src={icon2} />
+                                        <img src={icon2}  alt=''/>
                                         <div className="text">
                                             <h1 className='px-2 text-[#1D3A59]'>112, Skyzone Business Hub, Nr. Shyamdham Temple, Sarathana Jakatnaka, Surat - 395006 IN</h1>
                                         </div>

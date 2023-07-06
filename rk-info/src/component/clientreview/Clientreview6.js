@@ -30,7 +30,7 @@ export default function Clientreview6() {
                     </div>
 
                     <div className="col-lg-5">
-                        <img src={Review1} className="img-fluid imgss wow animate__backInLeft" data-wow-duration="1s" />
+                        <img src={Review1} alt='' className="img-fluid imgss wow animate__backInLeft" data-wow-duration="1s" />
                     </div>
                 </div>
             </div>

@@ -29,7 +29,7 @@ export default function Experience() {
 
                     <div className="col-lg-5 col-md-6 pt-2 pb-10">
                         {/* <div className='Experience'> */}
-                        <img src={Technicians1} className="img-fluid w-[500px] wow animate__zoomInUp" />
+                        <img src={Technicians1}  alt='' className="img-fluid w-[500px] wow animate__zoomInUp" />
                         {/* <div className="count-boxx  Experience2">
                                 <img src={social} className='sociall text-sidee-imagee '/>
                                <h1 className='text-[#027BB1] Expe-font'>10+ Years of Experience</h1>

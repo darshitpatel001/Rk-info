@@ -31,16 +31,16 @@ export default function Ourclients() {
         <div className="container">
 
           <div className=" grid xl:grid-cols-5 lg:grid-cols-2 md:grid-1 py-2 mb-2 imgss ">
-            <div className='clientt'><img src={Client1} /></div>
-            <div className='clientt'><img src={Client2} /></div>
-            <div className='clientt'><img src={Client3} /></div>
-            <div className='clientt'><img src={Client4} /></div>
-            <div className='clientt'><img src={Client5} /></div>
-            <div className='clientt'><img src={Client6} /></div>
-            <div className='clientt'><img src={Client7} /></div>
-            <div className='clientt'><img src={Client8} /></div>
-            <div className='clientt'><img src={Client9} /></div>
-            <div className='clientt'><img src={Client10} /></div>
+            <div className='clientt'><img src={Client1}  alt=''/></div>
+            <div className='clientt'><img src={Client2}  alt=''/></div>
+            <div className='clientt'><img src={Client3}  alt=''/></div>
+            <div className='clientt'><img src={Client4}  alt=''/></div>
+            <div className='clientt'><img src={Client5}  alt=''/></div>
+            <div className='clientt'><img src={Client6}  alt=''/></div>
+            <div className='clientt'><img src={Client7}  alt=''/></div>
+            <div className='clientt'><img src={Client8}  alt=''/></div>
+            <div className='clientt'><img src={Client9}  alt=''/></div>
+            <div className='clientt'><img src={Client10}  alt=''/></div>
 
           </div>
           <button  className="btn ">  <a href="/clientreview" className="hvr-icon-wobble-horizontal ">

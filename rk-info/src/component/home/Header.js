@@ -92,7 +92,7 @@ export default function Header() {
             <img
               src={logo}
               className="md:w-[150px] mr-3 w-[100px], sm:w-[120px] w-[80px]"
-              alt="Flowbite Logo"
+              alt=""
             />
           </a>
           <div className="flex items-center">

@@ -26,32 +26,32 @@ export default function Brand() {
                     <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
                         <div className="col">
                             <div className="p-1">
-                                <img src={brand} className='clientt' />
+                                <img src={brand} alt='' className='clientt' />
                             </div>
                         </div>
                         <div className="col">
                             <div className="p-1">
-                                <img src={brand1} className='clientt' />
+                                <img src={brand1} alt='' className='clientt' />
                             </div>
                         </div>
                         <div className="col">
                             <div className="p-1">
-                                <img src={brand2} className='clientt' />
+                                <img src={brand2} alt='' className='clientt' />
                             </div>
                         </div>
                         <div className="col">
                             <div className="p-1">
-                                <img src={brand3} className='clientt' />
+                                <img src={brand3} alt='' className='clientt' />
                             </div>
                         </div>
                         <div className="col">
                             <div className="p-1">
-                                <img src={brand4} className='clientt' />
+                                <img src={brand4} alt='' className='clientt' />
                             </div>
                         </div>
                         <div className="col">
                             <div className="p-1">
-                                <img src={brand5} className='clientt' />
+                                <img src={brand5} alt='' className='clientt' />
                             </div>
                         </div>
                         <div className="col">

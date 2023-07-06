@@ -15,7 +15,7 @@ export default function Technicians() {
                             <div className=' wow animate__backInLeft' data-wow-duration="2s">
                                 <div className="service mt-10">
                                     <div className="text-side-imageee">
-                                        <img src={Fram1} />
+                                        <img src={Fram1} alt="" />
                                     </div>
                                     <span>
 
@@ -28,7 +28,7 @@ export default function Technicians() {
                                 </div>
                                 <div className="service">
                                     <div className="text-side-imageee">
-                                        <img src={Fram1} />
+                                        <img src={Fram1} alt="" />
                                     </div>
                                     <span>
 
@@ -41,7 +41,7 @@ export default function Technicians() {
                                 </div>
                                 <div className="service">
                                     <div className="text-side-imageee">
-                                        <img src={Fram1} />
+                                        <img src={Fram1} alt="" />
                                     </div>
                                     <span>
 
@@ -60,7 +60,8 @@ export default function Technicians() {
                             <img
                                 className='service1 repire imgss wow animate__zoomInUp'
                                 data-wow-duration="3s"
-                                src={Technicians1} />
+                                src={Technicians1}
+                                alt="" />
                         </div>
 
 

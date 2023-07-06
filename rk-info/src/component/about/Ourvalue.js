@@ -23,7 +23,7 @@ export default function Ourvalue() {
                             <div className='row'>
                                 <div className='col-lg-2 pt-4'>
                                     <div className="value-img">
-                                        <img src={Ourvalue1} />
+                                        <img src={Ourvalue1}  alt=''/>
                                     </div>
                                 </div>
 
@@ -44,11 +44,11 @@ export default function Ourvalue() {
                             <div className='row'>
                                 <div className='col-lg-2 pt-4'>
                                     <div className="value-img">
-                                        <img src={Ourvalue2} />
+                                        <img src={Ourvalue2}  alt=''/>
                                     </div>
                                 </div>
 
-                                <div className='col-lg-10 pt    -1'>
+                                <div className='col-lg-10 pt-1'>
                                     <div className="ml-3 text-start">
                                         <h1 className='text-[#1D3A59] text-[35px] brand-text'>Our Mission</h1>
                                         <p className='text-[#727E8E] text-[18px]'>Our mission is to provide outstanding value to<br /> our customers, employees, and business<br /> partners ...</p>
