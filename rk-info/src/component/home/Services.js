@@ -28,7 +28,7 @@ export default function Services() {
 
             <div className="col-xl-4 col-lg-4 col-md-6">
               <div className="Product wow animate__backInUp Categories_item" data-wow-duration="1s">
-                <img src={Services1} className="img-fluid imgss" alt="" />
+                <img src={Services1} alt="" className="img-fluid imgss"/>
                 <div className='cte1'>
                   <h1 className='pt-2'>Accessories, Service</h1>
                   <p className='pt-2 pb-2'><b>Windows CPU</b></p>
@@ -36,7 +36,7 @@ export default function Services() {
                     <div className="text">
                       <b className='cte2'><del>$165.00</del></b>
                     </div>
-                    <img src={Fram} className='px-1'/>
+                    <img src={Fram} alt="" className='px-1'/>
                   </div>
                 </div>
               </div>
@@ -52,7 +52,7 @@ export default function Services() {
                     <div className="text">
                       <b className='cte2'><del>$199.00</del></b>
                     </div>
-                    <img src={Fram} className='px-1'/>
+                    <img src={Fram} alt="" className='px-1'/>
                   </div>
                 </div>
               </div>
@@ -68,17 +68,15 @@ export default function Services() {
                     <div className="text">
                       <b className='cte2'><del>$149.00</del></b>
                     </div>
-                    <img src={Fram} className='px-1'/>
+                    <img src={Fram} alt='' className='px-1'/>
                   </div>
                 </div>
               </div>
             </div>
 
-
           </div>
         </div>
       </section>
-
     </>
   )
 }

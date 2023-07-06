@@ -42,7 +42,7 @@ export default function Carousel() {
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src={Carousel3} alt="New York" className="d-block" />
+                        <img src={Carousel3} alt="" className="d-block" />
                         <div className="carousel-container">
                             <div className="container">
                                 <h2 className='demoo'>What Problems Can</h2>
@@ -68,7 +68,7 @@ export default function Carousel() {
                 </div>
                 <div className="carousel-inner ">
                     <div className="carousel-item active">
-                        <img src={Carousel3} alt="New York" className="d-block" />
+                        <img src={Carousel3} alt="" className="d-block" />
                         <div className="carousel-caption text-left">
                             <div className="container wow animate__bounceInRight">
                                 <h2 className='demoo'>What Problems Can</h2>
@@ -79,7 +79,7 @@ export default function Carousel() {
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src={Carousel2} alt="New York" className="d-block" />
+                        <img src={Carousel2} alt="" className="d-block" />
                         <div className="carousel-caption text-left">
                             <div className="container">
                                 <h2 className='demoo'>What Problems Can</h2>
@@ -90,7 +90,7 @@ export default function Carousel() {
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src={Carousel1} alt="New York" className="d-block" />
+                        <img src={Carousel1} alt="" className="d-block" />
                         <div className="carousel-caption text-left">
                             <div className="container">
                                 <h2 className='demoo'>What Problems Can</h2>
