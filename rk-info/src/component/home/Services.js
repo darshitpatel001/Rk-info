@@ -31,7 +31,7 @@ export default function Services() {
                 <img src={Services1} className="img-fluid imgss" alt="" />
                 <div className='cte1'>
                   <h1 className='pt-2'>Accessories, Service</h1>
-                  <p className='pt-2 pb-2'><b>Apple Watch Series 6</b></p>
+                  <p className='pt-2 pb-2'><b>Windows CPU</b></p>
                   <div className="text-side-imagee">
                     <div className="text">
                       <b className='cte2'><del>$165.00</del></b>
@@ -46,8 +46,8 @@ export default function Services() {
               <div className="Product wow animate__backInUp Categories_item" data-wow-duration="1s">
                 <img src={Services2} className="img-fluid imgss" alt="" />
                 <div className='cte1'>
-                  <h1 className='pt-2'>Discount, Tablet</h1>
-                  <p className='pt-2 pb-2'><b>Samsung Galaxy Tab S6</b></p>
+                  <h1 className='pt-2'>Security Solution</h1>
+                  <p className='pt-2 pb-2'><b>Analog Camera Solution</b></p>
                   <div className="text-side-imagee">
                     <div className="text">
                       <b className='cte2'><del>$199.00</del></b>
@@ -62,8 +62,8 @@ export default function Services() {
               <div className="Product wow animate__backInUp Categories_item" data-wow-duration="1s">
                 <img src={Services3} className="img-fluid imgss" alt="" />
                 <div className='cte1'>
-                  <h1 className='pt-2'>Laptop, New</h1>
-                  <p className='pt-2 pb-2'><b>Laptop ASUS VivoBook</b></p>
+                  <h1 className='pt-2'>Computer System Solution</h1>
+                  <p className='pt-2 pb-2'><b>Windows 10 Solution</b></p>
                   <div className="text-side-imagee">
                     <div className="text">
                       <b className='cte2'><del>$149.00</del></b>

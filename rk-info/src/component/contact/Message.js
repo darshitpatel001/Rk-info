@@ -77,7 +77,7 @@ export default function Message() {
 
                                 <div className="form-outline mb-3">
                                     <label className="form-label text-[#6F6F6F]" htmlFor="message">Messages</label>
-                                    <textarea class="form-control" name="message" rows="4" required></textarea>
+                                    <textarea className="form-control" name="message" rows="4" required></textarea>
                                 </div>
 
                                 <div className='text-center'>
