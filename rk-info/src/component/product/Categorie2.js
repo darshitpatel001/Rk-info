@@ -20,7 +20,7 @@ export default function Categorie2() {
           <div className="col-span-1 Categories_item">
             <img src={Categories2} className="img-fluid imgsss" alt="" />
             <div className='Categories'>
-              <h1>DC CPU</h1>
+              <h1>DC UPS</h1>
             </div>
           </div>
 
