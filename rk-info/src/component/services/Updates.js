@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 export default function Updates() {
     return (
@@ -11,12 +12,12 @@ export default function Updates() {
                             <p className='social2'>Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad.</p>
                         </div>
                         <div className="col-lg-6">
-                            <form action="https://formsubmit.co/darshitakbari9999@gmail" method="POST" >
+                            <form action="https://formsubmit.co/rktechnology2022@gmail.com" method="POST" >
                                 <input htmlFor="email" type="email" placeholder='Enter Your Email Address' name="email" />
                                 <input htmlFor="submit" type="submit" value="Subscribe" className='btn' />
                             </form>
-                            {/* <input htmlFor="chakebox" type="checkbox" className="form-check-input" id="check1" name="option1" value="something" />
-                            <label className="form-check-label text-[#727E85]" htmlFor="check1"> I agree to the <a href='' className='privacy'>Privacy Policy.</a></label> */}
+                            <input htmlFor="chakebox" type="checkbox" className="form-check-input" id="check1" name="option1" value="something" />
+                            <label className="form-check-label text-[#727E85]" htmlFor="check1"> I agree to the <Link to='' className='privacy'>Privacy Policy.</Link></label>
                         </div>
                     </div>
                 </div>
