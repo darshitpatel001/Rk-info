@@ -1,7 +1,8 @@
 import React from 'react'
-import logo from '../assets/img/RK logo.png'
+import logo from './component/assets/img/RK logo.png'
 import { useState } from "react";
-import '../css/index.css'
+import './component/css/index.css'
+import { Link } from 'react-router-dom';
 
 export default function Header() {
   const [sideBar, setSideBar] = useState(false);
@@ -73,12 +74,12 @@ export default function Header() {
             {NavigationLink.map((item, index) => {
               return (
                 <li key={index}>
-                  <a
-                    href={item.Path}
+                  <Link
+                    to={item.Path}
                     className="block  py-2 pl-5 pr-4 text-base  md:border-0 md:p-0 hover-underline-animation"
                   >
                     {item.Title}
-                  </a>
+                  </Link>
                 </li>
               );
             })}
@@ -88,13 +89,13 @@ export default function Header() {
       {/* fixed-top */}
       <nav className="header_border">
         <div className="container head mx-auto md:px-2  xl:px-[120px] lg:px-[20px] px-[20px] flex flex-wrap items-center justify-between ">
-          <a className="flex items-center " href="/">
+          <Link className="flex items-center " to="/">
             <img
               src={logo}
               className="md:w-[150px] mr-3 w-[100px], sm:w-[120px] w-[80px]"
               alt=""
             />
-          </a>
+          </Link>
           <div className="flex items-center">
             <button
               id="dropdownDefaultButton"
@@ -102,13 +103,13 @@ export default function Header() {
               className="md:hidden block rounded-full"
               type="button"
             >
-              <a
-                href="/contact"
+              <Link
+                to="/contact"
                 className="text-white bg-[#FF7400] hover-underline-animation hover:bg-[#ff8a2a] font-medium rounded-full text-sm px-2 text-[12px] py-1 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                 target=""
               >
                 Book on Engineer
-              </a>
+              </Link>
             </button>
             <button
               data-collapse-toggle="navbar-default"
@@ -139,12 +140,12 @@ export default function Header() {
               {NavigationLink.map((item, index) => {
                 return (
                   <li key={index}>
-                    <a
-                      href={item.Path}
+                    <Link
+                      to={item.Path}
                       className="block  py-2 pl-5 pr-4 text-base  md:border-0 md:p-0  hover-underline-animation"
                     >
                       {item.Title}
-                    </a>
+                    </Link>
                   </li>
                 );
               })}
@@ -155,13 +156,13 @@ export default function Header() {
                   className="text-white bg-[#FF7400]  hover:bg-[#ff8a2a]  p-2  rounded-full text-sm px-4 py-2.5 text-center inline-flex items-center "
                   type="button"
                 >
-                  <a
-                    href="/contact"
+                  <Link
+                    to="/contact"
                     className="block py-2 pl-5 pr-4 text-base md:border-0 md:p-0"
                     target=""
                   >
                     Book on Engineer
-                  </a>
+                  </Link>
                 </button>
               </li>
             </ul>

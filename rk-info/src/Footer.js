@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 export default function Footer() {
   return (
@@ -17,10 +19,10 @@ export default function Footer() {
               <div className="col-lg-2 col-md-6 footer-links">
                 <h4>Social</h4>
                 <ul>
-                  <li><a href="">Facebook</a></li>
-                  <li><a href="">Twitter</a></li>
-                  <li><a href="">Instagram</a></li>
-                  <li><a href="https://api.whatsapp.com/send?phone=9725483242">Whatsapp</a>
+                  <li><Link to="">Facebook</Link></li>
+                  <li><Link to="">Twitter</Link></li>
+                  <li><Link to="">Instagram</Link></li>
+                  <li><Link to="https://api.whatsapp.com/send?phone=9725483242">Whatsapp</Link>
                   </li>
                 </ul>
               </div>
@@ -28,19 +30,19 @@ export default function Footer() {
               <div className="col-lg-2 col-md-6 footer-links">
                 <h4>Need Help?</h4>
                 <ul>
-                  <li><a href="">Customer Services</a></li>
-                  <li><a href="">Group Sales</a></li>
-                  <li><a href="">FAQs</a></li>
-                  <li><a href="">Accessibility</a></li>
+                  <li><Link to="">Customer Services</Link></li>
+                  <li><Link to="">Group Sales</Link></li>
+                  <li><Link to="">FAQs</Link></li>
+                  <li><Link to="">Accessibility</Link></li>
                 </ul>
               </div>
               <div className="col-lg-2 col-md-6 footer-links">
                 <h4>Service</h4>
                 <ul>
-                  <li><a href="">Compare</a></li>
-                  <li><a href="">Download</a></li>
-                  <li><a href="">Feedback</a></li>
-                  <li><a href="">Bug Report</a></li>
+                  <li><Link to="">Compare</Link></li>
+                  <li><Link to="">Download</Link></li>
+                  <li><Link to="">Feedback</Link></li>
+                  <li><Link to="">Bug Report</Link></li>
                 </ul>
               </div>
             </div>
@@ -53,13 +55,13 @@ export default function Footer() {
             <div className="row">
               <div className="col-md-6 text-center text-md-start mb-3 mb-md-0 nav">
                 <li>
-                  <a href="/">Home</a>
+                  <Link to="/">Home</Link>
                 </li>
                 <li >
-                  <a href="/abouts">About</a>
+                  <Link to="/abouts">About</Link>
                 </li>
                 <li >
-                  <a href="/contact">Contact</a>
+                  <Link to="/contact">Contact</Link>
                 </li>
               </div>
               <div className="col-md-6 text-center text-md-end">

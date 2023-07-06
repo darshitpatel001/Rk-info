@@ -6,6 +6,7 @@ import Telephone from '../assets/img/Telephone.png'
 import Smartdoor from '../assets/img/Rectangle 15.jpg'
 import 'animate.css';
 import { WOW } from 'wowjs';
+import { Link } from 'react-router-dom'
 
 
 export default function Card() {
@@ -24,9 +25,9 @@ export default function Card() {
                                 <img src={Computer} className="img-fluid imgsss " alt="" />
                                 <div className="member-info-content">
                                     <h6>Computer System</h6>
-                                    <button href="" className="member-infoo">
-                                        <a href="/product" className="hvr-icon-wobble-horizontal ">Shop Now <i className="fa fa-arrow-right hvr-icon"></i>
-                                        </a>
+                                    <button to="" className="member-infoo">
+                                        <Link to="/product" className="hvr-icon-wobble-horizontal ">Shop Now <i className="fa fa-arrow-right hvr-icon"></i>
+                                        </Link>
                                     </button>
                                 </div>
                             </div>
@@ -36,9 +37,9 @@ export default function Card() {
                                 <img src={Cctv} className="img-fluid imgsss" alt="" />
                                 <div className="member-info-content">
                                     <h5 className="member-infooo">CCTV Camera</h5>
-                                    <button href="" className="member-infoo">
-                                        <a href="/product" className="hvr-icon-wobble-horizontal ">Shop Now <i className="fa fa-arrow-right hvr-icon"></i>
-                                        </a>
+                                    <button to="" className="member-infoo">
+                                        <Link to="/product" className="hvr-icon-wobble-horizontal ">Shop Now <i className="fa fa-arrow-right hvr-icon"></i>
+                                        </Link>
                                     </button>
                                 </div>
                             </div>
@@ -49,9 +50,9 @@ export default function Card() {
                                 <img src={Telephone} className="img-fluid imgsss" alt="" />
                                 <div className="member-info-content">
                                     <h6>EPABX Telephone</h6>
-                                    <button href="" className="member-infoo">
-                                        <a href="/product" className="hvr-icon-wobble-horizontal ">Shop Now <i className="fa fa-arrow-right hvr-icon"></i>
-                                        </a>
+                                    <button to="" className="member-infoo">
+                                        <Link to="/product" className="hvr-icon-wobble-horizontal ">Shop Now <i className="fa fa-arrow-right hvr-icon"></i>
+                                        </Link>
                                     </button>
                                 </div>
                             </div>
@@ -62,9 +63,9 @@ export default function Card() {
                                 <img src={Smartdoor} className="img-fluid imgsss" alt="" />
                                 <div className="member-info-content">
                                     <h6>Smart Door Lock</h6>
-                                    <button href="" className="member-infoo">
-                                        <a href="/product" className="hvr-icon-wobble-horizontal ">Shop Now <i className="fa fa-arrow-right hvr-icon"></i>
-                                        </a>
+                                    <button to="" className="member-infoo">
+                                        <Link to="/product" className="hvr-icon-wobble-horizontal ">Shop Now <i className="fa fa-arrow-right hvr-icon"></i>
+                                        </Link>
                                     </button>
                                 </div>
                             </div>

@@ -2,6 +2,7 @@ import React from 'react'
 import Services1 from '../assets/img/Rectangle 14.png'
 import Services2 from '../assets/img/Rectangle 13.png'
 import Services3 from '../assets/img/Smartdoor.png'
+import { Link } from 'react-router-dom'
 
 export default function Quickrepairs() {
 
@@ -117,7 +118,7 @@ export default function Quickrepairs() {
                                     type="button"
                                     className="btnn"
                                 >
-                                    <a href='/services'> Learn More</a>
+                                    <Link to='/services'> Learn More</Link>
                                 </button>
                             </div>
                         </div>

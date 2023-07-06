@@ -1,12 +1,12 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Home from './Home';
-import Header from './component/home/Header';
+import Header from './Header';
 import Ourclient from './Ourclient';
 import Services from './Services';
 import Aboutus from './Aboutus';
 import Contact from './Contact';
-import Footer from './component/home/Footer';
+import Footer from './Footer';
 import Products from './Products'
 
 function App() {

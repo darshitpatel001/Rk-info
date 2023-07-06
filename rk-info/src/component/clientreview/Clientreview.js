@@ -4,6 +4,7 @@ import Review1 from '../assets/img/Rectangle 33.png'
 import Review2 from '../assets/img/Rectangle 38.png'
 import 'animate.css';
 import { WOW } from 'wowjs';
+import { Link } from 'react-router-dom';
 
 export default function Clientreview() {
     useEffect(() => {
@@ -17,7 +18,7 @@ export default function Clientreview() {
                 <h1 className='text-center text-[40px]'>Our Client</h1>
                 <div className="containerr">
                     <ol>
-                        <li><a href="/">Home</a></li>
+                        <li><Link to="/">Home</Link></li>
                         <li>Our Client</li>
                     </ol>
                 </div>

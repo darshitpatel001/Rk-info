@@ -9,6 +9,7 @@ import Client7 from '../assets/img/Rectangle 35.png'
 import Client8 from '../assets/img/Rectangle 39.png'
 import Client9 from '../assets/img/Rectangle 40.png'
 import Client10 from '../assets/img/Rectangle 41.png'
+import { Link } from 'react-router-dom'
 
 
 export default function Ourclients() {
@@ -43,9 +44,9 @@ export default function Ourclients() {
             <div className='clientt'><img src={Client10}  alt=''/></div>
 
           </div>
-          <button  className="btn ">  <a href="/clientreview" className="hvr-icon-wobble-horizontal ">
+          <button  className="btn ">  <Link to="/clientreview" className="hvr-icon-wobble-horizontal ">
             Try Us Out <i className="fa fa-arrow-right hvr-icon"></i>
-          </a></button>
+          </Link></button>
 
           {/* <div className="row">
             <div className="col-xl-2 col-lg-5 col-md-6" data-aos="zoom-in" data-aos-delay="100">

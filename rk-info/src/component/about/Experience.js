@@ -3,6 +3,7 @@ import Technicians1 from '../assets/img/Rectangle 64.png'
 // import social from '../assets/img/Frame 8.png'
 import 'animate.css';
 import { WOW } from 'wowjs';
+import { Link } from 'react-router-dom';
 
 export default function Experience() {
     useEffect(() => {
@@ -21,7 +22,7 @@ export default function Experience() {
                                     <h1 className='text-[#1A9EDA] Exp-text'>WHO WE ARE</h1>
                                     <h2 className='text-[#027BB1] Exp-text1'>Get your smartphone or computer<br /> repaired today.</h2>
                                     <p className='text-[#727E8E] Exp-text2'>Netus curabitur massa eu pharetra condimentum proin praesent<br /> vitae letius. Fusce ultricies ipsum dignissim ac id duis ligula<br /> natoque volutpat. Ut molestie luctus felis eros quis iaculis ligula <br />consectetur nisi feugiat.</p>
-                                    <a href="/services" className="btn-gett-startedd animate_animated animate_fadeInUp scrollto">Discover more</a>
+                                    <Link to="/services" className="btn-gett-startedd animate_animated animate_fadeInUp scrollto">Discover more</Link>
                                 </div>
                             </div>
                         </div>

@@ -4,6 +4,7 @@ import Carousel2 from '../assets/img/Rectangle 2.jpg'
 import Carousel3 from '../assets/img/Rectangle 2.jpg'
 import 'animate.css';
 import { WOW } from 'wowjs';
+import { Link } from 'react-router-dom';
 
 export default function Carousel() {
     useEffect(() => {
@@ -26,7 +27,7 @@ export default function Carousel() {
                                 <h2 className='demoo'>What Problems Can</h2>
                                 <p>RK is a neat, feature-rich landing page
                                     template <br />designed to showcase your product or service in <br />style.</p>
-                                <a href="/product" className="btn-get-started animate_animated animate_fadeInUp scrollto">Visit Online Store</a>
+                                <Link to="/product" className="btn-get-started animate_animated animate_fadeInUp scrollto">Visit Online Store</Link>
                             </div>
                         </div>
                     </div>
@@ -37,7 +38,7 @@ export default function Carousel() {
                                 <h2 className='demoo'>What Problems Can</h2>
                                 <p>RK is a neat, feature-rich landing page
                                     template <br />designed to showcase your product or service in <br />style.</p>
-                                <a href="/product" className="btn-get-started animate_animated animate_fadeInUp scrollto">Visit Online Store</a>
+                                <Link to="/product" className="btn-get-started animate_animated animate_fadeInUp scrollto">Visit Online Store</Link>
                             </div>
                         </div>
                     </div>
@@ -48,7 +49,7 @@ export default function Carousel() {
                                 <h2 className='demoo'>What Problems Can</h2>
                                 <p>RK is a neat, feature-rich landing page
                                     template <br />designed to showcase your product or service in <br />style.</p>
-                                <a href="/product" className="btn-get-started animate_animated animate_fadeInUp scrollto">Visit Online Store</a>
+                                <Link to="/product" className="btn-get-started animate_animated animate_fadeInUp scrollto">Visit Online Store</Link>
                             </div>
                         </div>
                     </div>
