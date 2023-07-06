@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import Technicians1 from '../assets/img/Rectangle 64.png'
-import social from '../assets/img/Frame 8.png'
+// import social from '../assets/img/Frame 8.png'
 import 'animate.css';
 import { WOW } from 'wowjs';
 

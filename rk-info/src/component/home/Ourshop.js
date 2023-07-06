@@ -3,7 +3,7 @@ import Product1 from '../assets/img/product-image5-470x470.jpg'
 import Product2 from '../assets/img/product-image9-470x470.jpg'
 import Product3 from '../assets/img/product-image10-470x470.jpg'
 import Product4 from '../assets/img/product-image7-470x470.jpg'
-import Product5 from '../assets/img/Group 47.png'
+// import Product5 from '../assets/img/Group 47.png'
 import Fram from '../assets/img/Frame.png'
 
 export default function Ourshop() {

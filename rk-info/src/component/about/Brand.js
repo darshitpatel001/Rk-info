@@ -56,12 +56,12 @@ export default function Brand() {
                         </div>
                         <div className="col">
                             <div className="p-1">
-                                <img src={brand6} className='clientt' />
+                                <img src={brand6} alt='' className='clientt' />
                             </div>
                         </div>
                         <div className="col">
                             <div className="p-1">
-                                <img src={brand7} className='clientt' />
+                                <img src={brand7} alt='' className='clientt' />
                             </div>
                         </div>
                     </div>

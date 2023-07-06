@@ -8,7 +8,7 @@ export default function Clientreview6() {
             <div className="container pt-28">
                 <div className="row">
                     <div className="col-lg-5">
-                        <img src={Review} className="img-fluid imgss wow animate__backInLeft" data-wow-duration="1s" />
+                        <img src={Review} alt="" className="img-fluid imgss wow animate__backInLeft" data-wow-duration="1s" />
                     </div>
                     <div className="col-lg-7 d-flex flex-column justify-content-center">
                         <div className="content bg-[#fffbdf] border-dashed border-2 border-[#ECD21A] wow animate__backInRight" data-wow-duration="1s">
