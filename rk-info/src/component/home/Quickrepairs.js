@@ -44,7 +44,7 @@ export default function Quickrepairs() {
                             <h1 className='quick1 pt-3 wow animate__backInLeft' data-wow-duration="1s">Our Services Save Your Time</h1>
                             <p className='quick2 wow animate__backInLeft' data-wow-duration="1s">Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. </p>
                             <div className=' wow animate__backInLeft' data-wow-duration="2s">
-                                <div className=''>
+                                <div className='Quick-font'>
                                     <div className="service mt-10">
                                         <img src={right} alt='' />
                                         <div className="ml-3  text-start">
