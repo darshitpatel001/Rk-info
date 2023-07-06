@@ -16,7 +16,7 @@ export default function Updates() {
                                 <input htmlFor="submit" type="submit" value="Subscribe" className='btn' />
                             </form>
                             <input htmlFor="chakebox" type="checkbox" className="form-check-input" id="check1" name="option1" value="something" />
-                            <label className="form-check-label text-[#727E85]" htmlFor="check1"> I agree to the <a href='' className='privacy'>Privacy Policy.</a></label>
+                            {/* <label className="form-check-label text-[#727E85]" htmlFor="check1"> I agree to the <a href='' className='privacy'>Privacy Policy.</a></label> */}
                         </div>
                     </div>
                 </div>

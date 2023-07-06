@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
-import Carousel1 from '../assets/img/Rectangle 1.jpg'
-import Carousel2 from '../assets/img/pc-upgrade-compressed.jpg'
+import Carousel1 from '../assets/img/Rectangle 2.jpg'
+import Carousel2 from '../assets/img/Rectangle 2.jpg'
 import Carousel3 from '../assets/img/Rectangle 2.jpg'
 import 'animate.css';
 import { WOW } from 'wowjs';
