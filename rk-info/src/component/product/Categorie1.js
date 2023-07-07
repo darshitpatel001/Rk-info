@@ -45,49 +45,49 @@ export default function Categorie1() {
                   <div className="text">
                     <h1 className='text-[20px] text-[#727E8E]'>Computer System</h1>
                   </div>
-                  <img src={icon} />
+                  <img src={icon} alt=''/>
                 </div>
 
                 <div className="Categories-icon pt-2">
                   <div className="text">
                     <h1 className='text-[20px] text-[#727E8E]'>CCTV Camera</h1>
                   </div>
-                  <img src={icon1} />
+                  <img src={icon1} alt=''/>
                 </div>
 
                 <div className="Categories-icon pt-2">
                   <div className="text">
                     <h1 className='text-[20px] text-[#727E8E]'>Smart Door Lock</h1>
                   </div>
-                  <img src={icon2} />
+                  <img src={icon2} alt=''/>
                 </div>
 
                 <div className="Categories-icon pt-2">
                   <div className="text">
                     <h1 className='text-[20px] text-[#727E8E]'>EPABX Telephone</h1>
                   </div>
-                  <img src={icon3} />
+                  <img src={icon3} alt=''/>
                 </div>
 
                 <div className="Categories-icon pt-2">
                   <div className="text">
                     <h1 className='text-[20px] text-[#727E8E]'>Keyboard Mouse</h1>
                   </div>
-                  <img src={icon4} />
+                  <img src={icon4} alt=''/>
                 </div>
 
                 <div className="Categories-icon pt-2">
                   <div className="text">
                     <h1 className='text-[20px] text-[#727E8E]'>Moniter</h1>
                   </div>
-                  <img src={icon5} />
+                  <img src={icon5} alt=''/>
                 </div>
 
                 <div className="Categories-icon pt-2">
                   <div className="text">
                     <h1 className='text-[20px] text-[#727E8E]'>Wi - Fi Camera</h1>
                   </div>
-                  <img src={icon6} />
+                  <img src={icon6} alt=''/>
                 </div>
               </ul>
             </div>
