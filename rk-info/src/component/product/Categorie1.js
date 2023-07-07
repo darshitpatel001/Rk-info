@@ -110,10 +110,8 @@ export default function Categorie1() {
               <h1>Video Door</h1>
             </div>
           </div>
-
         </div>
       </div>
-
     </>
   )
 }
