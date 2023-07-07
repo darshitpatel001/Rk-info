@@ -28,7 +28,7 @@ export default function Categories() {
                     <div class="col-md-6 col-lg-3 Categories_item pb-10">
                         <img src={Categories1} className="img-fluid imgsss " alt="" />
                         <div className='Categories'>
-                            <h1>Asus Wifi Router</h1>
+                            <h1>Wifi Router</h1>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3 Categories_item pb-10">

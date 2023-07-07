@@ -3,7 +3,7 @@ import Categories1 from '../assets/img/system.png'
 import Categories2 from '../assets/img/laptop.png'
 import Categories3 from '../assets/img/cctv.png'
 import Categories4 from '../assets/img/door.png'
-import Categories5 from '../assets/img/cameraa.png'
+import Categories5 from '../assets/img/sound.png'
 import Categories6 from '../assets/img/video door.png'
 import icon from '../assets/img/system 1.png'
 import icon1 from '../assets/img/cctv1.png'
@@ -32,7 +32,7 @@ export default function Categorie1() {
           <div class="col-md-6 col-lg-3 Categories_item pb-10">
             <img src={Categories3} className="img-fluid imgsss " alt="" />
             <div className='Categories'>
-              <h1>CCTV Camera</h1>
+              <h1>CCTV & Security Solution</h1>
             </div>
           </div>
           <div class="col-md-6 col-lg-3 Categories_item pb-2">
@@ -95,13 +95,13 @@ export default function Categorie1() {
           <div class="col-md-6 col-lg-3 Categories_item">
             <img src={Categories4} className="img-fluid imgsss " alt="" />
             <div className='Categories'>
-              <h1>Nokee Door Lock</h1>
+              <h1>Door Lock</h1>
             </div>
           </div>
           <div class="col-md-6 col-lg-3 Categories_item">
             <img src={Categories5} className="img-fluid imgsss " alt="" />
             <div className='Categories'>
-              <h1>CCTV Camera</h1>
+              <h1>PA & Commercial Sound System</h1>
             </div>
           </div>
           <div class="col-md-6 col-lg-3 Categories_item">
