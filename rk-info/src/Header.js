@@ -88,29 +88,12 @@ export default function Header() {
       </aside>
       {/* fixed-top */}
       <nav className="header_border">
-        <div className="container head mx-auto md:px-2  xl:px-[120px] lg:px-[20px] px-[20px] flex flex-wrap items-center justify-between ">
-          <Link className="flex items-center " to="/">
-            <img
-              src={logo}
-              className="md:w-[150px] mr-3 w-[100px], sm:w-[120px] w-[80px]"
-              alt=""
-            />
+        <div className="container head mx-auto md:px-2 xl:px-[120px] lg:px-[20px] px-[20px] flex flex-wrap items-center justify-between">
+          <Link className="flex items-center" to="/">
+            {/* Update logo size for tablet screens */}
+            <img src={logo} className="md:w-[150px] mr-3 w-[80px]" alt="" />
           </Link>
           <div className="flex items-center">
-            <button
-              id="dropdownDefaultButton"
-              data-dropdown-toggle="dropdown"
-              className="md:hidden block rounded-full"
-              type="button"
-            >
-              <Link
-                to="/contact"
-                className="text-white bg-[#FF7400] hover-underline-animation hover:bg-[#ff8a2a] font-medium rounded-full text-sm px-2 text-[12px] py-1 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                target=""
-              >
-                Book on Engineer
-              </Link>
-            </button>
             <button
               data-collapse-toggle="navbar-default"
               type="button"
@@ -125,7 +108,7 @@ export default function Header() {
                 aria-hidden="true"
                 fill="currentColor"
                 viewBox="0 0 20 20"
-                xmlns="http://www.w 3.org/2000/svg"
+                xmlns="http://www.w3.org/2000/svg"
               >
                 <path
                   fillRule="evenodd"
@@ -136,13 +119,14 @@ export default function Header() {
             </button>
           </div>
           <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-            <ul className="flex items-center flex-col p-4 mt-4 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 ">
+            {/* Update the navigation links layout for tablet screens */}
+            <ul className="flex items-center flex-col p-4 mt-4 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0">
               {NavigationLink.map((item, index) => {
                 return (
                   <li key={index}>
                     <Link
                       to={item.Path}
-                      className="block  py-2 pl-5 pr-4 text-base  md:border-0 md:p-0  hover-underline-animation"
+                      className="block py-2 pl-5 pr-4 text-base md:border-0 md:p-0 hover-underline-animation"
                     >
                       {item.Title}
                     </Link>
@@ -153,7 +137,7 @@ export default function Header() {
                 <button
                   id="dropdownDefaultButton"
                   data-dropdown-toggle="dropdown"
-                  className="text-white bg-[#FF7400]  hover:bg-[#ff8a2a]  p-2  rounded-full text-sm px-4 py-2.5 text-center inline-flex items-center "
+                  className="text-white bg-[#FF7400] hover:bg-[#ff8a2a] p-2 rounded-full text-sm px-4 py-2.5 text-center inline-flex items-center"
                   type="button"
                 >
                   <Link
@@ -169,6 +153,7 @@ export default function Header() {
           </div>
         </div>
       </nav>
+
     </>
   )
 }
