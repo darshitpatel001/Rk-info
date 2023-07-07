@@ -1,5 +1,7 @@
 import React from 'react'
-import Technicians1 from '../assets/img/Group 123.png'
+import Technicians1 from '../assets/img/Group 123.png'  
+// import Technicians2 from '../assets/img/Rectangle 59.png' 
+// import Technicians3 from '../assets/img/Rectangle 58.png' 
 import Fram1 from '../assets/img/Group 119.png'
 export default function Technicians() {
     return (
@@ -9,7 +11,7 @@ export default function Technicians() {
                 <div className="container">
                     <div className="row">
 
-                        <div className="col-lg-6 pt-16">
+                        <div className="col-lg-7 pt-16">
                             <h1 className='quick11 wow animate__backInLeft' data-wow-duration="1s">Our experienced technicians<br /> are ready to repair your<br /> device right now!</h1>
                             <p className='quick22 wow animate__backInLeft' data-wow-duration="1s">consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper<br /> mattis, more pulvinar dapibus leo.</p>
                             <div className=' wow animate__backInLeft' data-wow-duration="2s">
@@ -56,7 +58,7 @@ export default function Technicians() {
                             </div>
                         </div>
 
-                        <div className="col-lg-6">
+                        <div className="col-lg-5">
                             <img
                                 className='service1 repire imgss wow animate__zoomInUp'
                                 data-wow-duration="3s"
@@ -69,13 +71,15 @@ export default function Technicians() {
                             <img
                                 className='technicians2 repire imgss wow animate__zoomInUp'
                                 data-wow-duration="3s"
-                                src={Technicians1} />
+                                src={Technicians2}
+                                alt='' />
                             <img
                                 className='technicians3 repire imgss wow animate__zoomInUp'
                                 data-wow-duration="3s"
-                                src={Technicians2} />
-                        </div>
-                    </div> */}
+                                src={Technicians3} 
+                                alt=''/>
+                        </div> */}
+               
                     </div>
                 </div>
             </section>

@@ -15,76 +15,75 @@ import icon6 from '../assets/img/wifi camera.png'
 export default function Categorie1() {
   return (
     <>
-      <div className='container pt-24  wow animate__backInUp'>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-          <div className="col-span-1 Categories_item">
+    <div className='container pt-24 wow animate__backInUp'>
+        <div class="row">
+          <div class="col-md-6 col-lg-3 Categories_item pb-10">
             <img src={Categories1} className="img-fluid imgsss " alt="" />
             <div className='Categories'>
               <h1>Computer System</h1>
             </div>
           </div>
-          <div className="col-span-1 Categories_item">
+          <div class="col-md-6 col-lg-3 Categories_item pb-10">
             <img src={Categories2} className="img-fluid imgsss " alt="" />
             <div className='Categories'>
               <h1>Laptop</h1>
             </div>
           </div>
-          <div className="col-span-1 Categories_item">
+          <div class="col-md-6 col-lg-3 Categories_item pb-10">
             <img src={Categories3} className="img-fluid imgsss " alt="" />
             <div className='Categories'>
               <h1>CCTV Camera</h1>
             </div>
           </div>
-
-          <div className="col-span-1 Categories_item">
+          <div class="col-md-6 col-lg-3 Categories_item pb-2">
             <div className='container Categorie1 wow animate__rubberBand'>
               <p className='text-[35px] text-[#1D3A59] p-3 text-center'>Product Categories</p>
               <hr />
               <ul className='text-[20px] text-[#727E8E]'>
 
-                <div className="Categories-icon  pt-2">
+                <div className="Categories-icon pt-2">
                   <div className="text">
                     <h1 className='text-[20px] text-[#727E8E]'>Computer System</h1>
                   </div>
                   <img src={icon} />
                 </div>
 
-                <div className="Categories-icon  pt-2">
+                <div className="Categories-icon pt-2">
                   <div className="text">
                     <h1 className='text-[20px] text-[#727E8E]'>CCTV Camera</h1>
                   </div>
                   <img src={icon1} />
                 </div>
 
-                <div className="Categories-icon  pt-2">
+                <div className="Categories-icon pt-2">
                   <div className="text">
                     <h1 className='text-[20px] text-[#727E8E]'>Smart Door Lock</h1>
                   </div>
                   <img src={icon2} />
                 </div>
 
-                <div className="Categories-icon  pt-2">
+                <div className="Categories-icon pt-2">
                   <div className="text">
                     <h1 className='text-[20px] text-[#727E8E]'>EPABX Telephone</h1>
                   </div>
                   <img src={icon3} />
                 </div>
 
-                <div className="Categories-icon  pt-2">
+                <div className="Categories-icon pt-2">
                   <div className="text">
                     <h1 className='text-[20px] text-[#727E8E]'>Keyboard Mouse</h1>
                   </div>
                   <img src={icon4} />
                 </div>
 
-                <div className="Categories-icon  pt-2">
+                <div className="Categories-icon pt-2">
                   <div className="text">
                     <h1 className='text-[20px] text-[#727E8E]'>Moniter</h1>
                   </div>
                   <img src={icon5} />
                 </div>
 
-                <div className="Categories-icon  pt-2">
+                <div className="Categories-icon pt-2">
                   <div className="text">
                     <h1 className='text-[20px] text-[#727E8E]'>Wi - Fi Camera</h1>
                   </div>
@@ -93,18 +92,19 @@ export default function Categorie1() {
               </ul>
             </div>
           </div>
-          <div className="col-span-1 Categories_item">
+          <div class="col-md-6 col-lg-3 Categories_item">
             <img src={Categories4} className="img-fluid imgsss " alt="" />
             <div className='Categories'>
               <h1>Nokee Door Lock</h1>
             </div>
           </div>
-          <div className="col-span-1 Categories_item">
+          <div class="col-md-6 col-lg-3 Categories_item">
             <img src={Categories5} className="img-fluid imgsss " alt="" />
             <div className='Categories'>
               <h1>CCTV Camera</h1>
             </div>
-          </div>    <div className="col-span-1 Categories_item">
+          </div>
+          <div class="col-md-6 col-lg-3 Categories_item">
             <img src={Categories6} className="img-fluid imgsss " alt="" />
             <div className='Categories'>
               <h1>Video Door</h1>

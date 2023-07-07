@@ -23,27 +23,29 @@ export default function Categories() {
                     </div>
                 </div>
             </section>
-            <div className='container  wow animate__backInUp'>
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                    <div className="col-span-1 Categories_item">
+            <div className='container wow animate__backInUp'>
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 Categories_item pb-10">
                         <img src={Categories1} className="img-fluid imgsss " alt="" />
                         <div className='Categories'>
                             <h1>Asus Wifi Router</h1>
                         </div>
                     </div>
-                    <div className="col-span-1 Categories_item">
+                    <div class="col-md-6 col-lg-3 Categories_item pb-10">
                         <img src={Categories2} className="img-fluid imgsss " alt="" />
                         <div className='Categories'>
                             <h1>Mouse</h1>
                         </div>
                     </div>
-                    <div className="col-span-1 Categories_item">
+                    <div class="col-md-6 col-lg-3 Categories_item pb-10">
                         <img src={Categories3} className="img-fluid imgsss " alt="" />
                         <div className='Categories'>
                             <h1>Keyboard</h1>
                         </div>
                     </div>
-                    <div className="col-span-1 Categories_item">
+
+
+                    <div class="col-md-6 col-lg-3 Categories_item pb-10">
                         <div className='container Categorie text-center wow animate__rubberBand'>
                             <p className='text-[35px] text-[#1D3A59] p-3'>Product Categories</p>
                             <hr />
