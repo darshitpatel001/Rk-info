@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import Technicians1 from '../assets/img/Rectangle 64.png'
-// import social from '../assets/img/Frame 8.png'
+import social from '../assets/img/Frame 8.png'
 import 'animate.css';
 import { WOW } from 'wowjs';
 import { Link } from 'react-router-dom';
@@ -29,14 +29,14 @@ export default function Experience() {
                     </div>
 
                     <div className="col-lg-5 col-md-6 pt-2 pb-10">
-                        {/* <div className='Experience'> */}
+                        <div className='Experience'>
                         <img src={Technicians1}  alt='' className="img-fluid w-[500px] wow animate__zoomInUp" />
-                        {/* <div className="count-boxx  Experience2">
+                        <div className="count-boxx  Experience2">
                                 <img src={social} className='sociall text-sidee-imagee '/>
                                <h1 className='text-[#027BB1] Expe-font'>10+ Years of Experience</h1>
                                 <p className='text-[#727E8E] Expe-font1'>Pulvinar placerat risus pharetra ut felis potenti suspendisse congue aliquet laoreet tristique.</p>
-                            </div> */}
-                        {/* </div> */}
+                            </div>
+                        </div>
                     </div>
 
 
