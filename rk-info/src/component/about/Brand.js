@@ -12,46 +12,64 @@ import brand7 from '../assets/img/Rectangle 40.png'
 export default function Brand() {
     return (
         <>
+            <div>
+                <div className="container pt-10">
 
-            <div className="container pt-10">
+                    <div className="text-center wow animate__backInDown" data-wow-duration="1s">
+                        <h1 className='text-[45px] text-[#027BB1] pb-4'>Support brand</h1>
+                        <p className='text-[20px] text-[#727E8E]'>The process of creating the brand identity of a company. This process also delivers <br />materials that support the brand.</p>
+                    </div>
 
-                <div className="text-center wow animate__backInDown" data-wow-duration="1s">
-                    <h1 className='text-[45px] text-[#027BB1] pb-4'>Support brand</h1>
-                    <p className='text-[20px] text-[#727E8E]'>The process of creating the brand identity of a company. This process also delivers <br />materials that support the brand.</p>
                 </div>
 
-            </div>
-
-            <div class="container">
-                <div class="row pt-10 pb-10">
-                    <div class="col-sm-6 col-md-4 col-lg-3">
-                        <img src={brand} alt='' className='clientt' />
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3">
-                        <img src={brand1} alt='' className='clientt' />
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3">
-                        <img src={brand2} alt='' className='clientt' />
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3">
-                        <img src={brand3} alt='' className='clientt' />
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3">
-                        <img src={brand4} alt='' className='clientt' />
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3">
-                        <img src={brand5} alt='' className='clientt' />
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3">
-                        <img src={brand6} alt='' className='clientt' />
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3">
-                        <img src={brand7} alt='' className='clientt' />
+                <div className="container pt-10 pb-10">
+                    <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+                        <div className="col">
+                            <div className="p-1">
+                                <img src={brand} alt='' className='clientt' />
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="p-1">
+                                <img src={brand1} alt='' className='clientt' />
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="p-1">
+                                <img src={brand2} alt='' className='clientt' />
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="p-1">
+                                <img src={brand3} alt='' className='clientt' />
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="p-1">
+                                <img src={brand4} alt='' className='clientt' />
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="p-1">
+                                <img src={brand5} alt='' className='clientt' />
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="p-1">
+                                <img src={brand6} alt='' className='clientt' />
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="p-1">
+                                <img src={brand7} alt='' className='clientt' />
+                            </div>
+                        </div>
                     </div>
                 </div>
+
+
             </div>
 
         </>
-
     )
 }

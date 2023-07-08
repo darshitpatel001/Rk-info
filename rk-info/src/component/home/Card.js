@@ -20,7 +20,7 @@ export default function Card() {
                 <div className="container">
                     <div className="row">
                         
-                        <div className="col-xl-3 col-lg-4 col-md-6">
+                        <div className="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-12">
                             <div className="member">
                                 <img src={Computer} className="img-fluid imgsss " alt="" />
                                 <div className="member-info-content">
@@ -32,7 +32,7 @@ export default function Card() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-3 col-lg-4 col-md-6">
+                        <div className="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-12">
                             <div className="member">
                                 <img src={Cctv} className="img-fluid imgsss" alt="" />
                                 <div className="member-info-content">
@@ -45,7 +45,7 @@ export default function Card() {
                             </div>
                         </div>
 
-                        <div className="col-xl-3 col-lg-4 col-md-6">
+                        <div className="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-12">
                             <div className="member">
                                 <img src={Telephone} className="img-fluid imgsss" alt="" />
                                 <div className="member-info-content">
@@ -58,7 +58,7 @@ export default function Card() {
                             </div>
                         </div>
 
-                        <div className="col-xl-3 col-lg-4 col-md-6">
+                        <div className="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-12">
                             <div className="member">
                                 <img src={Smartdoor} className="img-fluid imgsss" alt="" />
                                 <div className="member-info-content">

@@ -24,7 +24,7 @@ export default function Ourshop() {
 
           <div className="row">
 
-            <div className="col-xl-3 col-lg-4 col-md-6 pb-4">
+            <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 pb-4">
               <div className="Product wow animate__backInUp Categories_item" data-wow-duration="1s">
                 <img src={Product1} alt='' className="img-fluid imgss w-100" />
                 <div className='cte1'>
@@ -40,7 +40,7 @@ export default function Ourshop() {
               </div>
             </div>
 
-            <div className="col-xl-3 col-lg-4 col-md-6 pb-4">
+            <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 pb-4">
               <div className="Product wow animate__backInUp Categories_item" data-wow-duration="1s">
                 <img src={Product2} alt='' className="img-fluid imgss w-100" />
                 <div className='cte1'>
@@ -56,7 +56,7 @@ export default function Ourshop() {
               </div>
             </div>
 
-            <div className="col-xl-3 col-lg-4 col-md-6 pb-4">
+            <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 pb-4">
               <div className="Product wow animate__backInUp Categories_item" data-wow-duration="1s">
                 <img src={Product3} alt='' className="img-fluid imgss w-100" />
                 <div className='cte1'>
@@ -72,7 +72,7 @@ export default function Ourshop() {
               </div>
             </div>
 
-            <div className="col-xl-3 col-lg-4 col-md-6">
+            <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
               <div className="Product wow animate__backInUp Categories_item" data-wow-duration="1s">
                 <img src={Product4} alt='' className="img-fluid imgss w-100" />
                 <div className='cte1'>

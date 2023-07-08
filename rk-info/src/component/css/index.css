@@ -1,10 +1,12 @@
-/*--------------------------------------------------------------
+ /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;1,100;1,200;1,300;1,400;1,500;1,700;1,800&display=swap');
 body {
   font-family: 'Jost', sans-serif;
 }
+
+.container { max-width: 1720px; }
 
 @media (max-width: 420px) {
   .head {
@@ -16,7 +18,7 @@ body {
 .hover-underline-animation {
   display: inline-block;
   position: relative;
-  color: #027BB1;
+  color: #1D3A59;
 }
 
 .hover-underline-animation::after {
@@ -37,7 +39,6 @@ body {
   transform-origin: bottom left;
 }
 
-
 /*--------------------------------------------------------------
 # carousel
 --------------------------------------------------------------*/
@@ -48,7 +49,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   gap: 100px 50px;
-  padding: 100px 50px;
+  padding: 0;
 }
 
 .containerr .card {
@@ -180,6 +181,7 @@ body {
   top: 82px;
   left: 50px;
   right: 50px;
+  margin: 0 0 0 60px;
 }
 
 .demoo {
@@ -282,10 +284,11 @@ body {
 
 .team .member .member-info-content {
   position: absolute;
-  left: 50px;
+  left: 25px;
   right: 0;
-  bottom: 0;
+  bottom: 25px;
   transition: bottom 0.4s;
+  text-align: start;
 }
 
  .member-info-content h6 {
@@ -293,7 +296,7 @@ body {
   margin-bottom: 2px;
   font-size: 15px;
   color: #fff;
-  margin-right: 180px;
+  margin-right: 0;
 }
 
 .imgs {
@@ -302,7 +305,7 @@ body {
 }
 
 .imgsss {
-  height: 375px;
+  width: 100%;
 }
 
 /* .team .member .member-info-content span {
@@ -350,7 +353,7 @@ body {
   margin-bottom: 2px;
   font-size: 16px;
   color: #fff;
-  margin-right: 200px;
+  margin-right: 0;
 }
 
 .member-infoo {
@@ -358,7 +361,7 @@ body {
   margin-bottom: 2px;
   font-size: 16px;
   color: #fff;
-  margin-right: 200px;
+  margin-right: 0;
 }
 
 .team .member:hover .member-info-content {
@@ -378,7 +381,7 @@ body {
   }
 
   .member-infooo {
-    text-align: center;
+    text-align: start;
   }
 }
 
@@ -397,6 +400,8 @@ body {
 /*--------------------------------------------------------------
   # repair
   --------------------------------------------------------------*/
+
+.repair .portfolio-item { position: relative; }
 
 .repair .portfolio-item .portfolio-info {
   opacity: 0;
@@ -433,7 +438,7 @@ body {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  padding: 80px 0;
+  padding: 90px 0 45px;
   color: #027BB1;
 }
 
@@ -519,7 +524,6 @@ body {
 }
 
 .btn {
-
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 1px;
@@ -837,21 +841,27 @@ body {
   background-color: #027BB1;
   font-size: 20px;
   text-align: center;
+  margin-top: 42px;
 }
 
-.service1 {
-  height: 500px;
-  margin: 40px;
-}
+.quick-repairs-section { padding: 78px 0; }
 
-.service3 {
-  height: 500px;
-  margin: 40px;
+.quick-repairs-images { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; }
+.quick-repairs-images img { width: 50%; }
+.quick-repairs-images .quick-repairs-images2 { width: calc(50% - 39px); margin-left: 39px; }
+.quick-repairs-images .quick-repairs-images2 img { width: 100%; }
+.quick-repairs-images .quick-repairs-images2 img:first-child { margin-bottom: 30px; }
+.quick-repairs-images .quick-repairs-images2 img:last-child { margin-top: 0; }
+
+.quick-repairs-content { padding-left: 68px; }
+
+.services-list {
+  margin-top: 20px;
 }
 
 .service {
   font-size: 1.1rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 20px;
   display: flex;
   align-items: baseline
 }
@@ -871,24 +881,12 @@ body {
 .quick1 {
   color: #027BB1;
   font-size: 38px;
+  line-height: 1;
+  padding: 30px 0 10px;
 }
 
 .quick2 {
   color: #727E8E;
-}
-
-.repir {
-  width: 300px;
-  height: 255px;
-}
-
-.repirr {
-  width: 310px;
-  height: 300px;
-}
-
-.repire {
-  height: 580px;
 }
 
 @media (max-width: 420px) {
@@ -924,13 +922,14 @@ body {
 
 .social {
   display: block;
-  margin: 0 auto;
-  padding: 10px;
+  margin: 0 auto 15px;
+  padding: 0;
 }
 
 .social1 {
   color: #027BB1;
   font-size: 25px;
+  margin: 0 0 10px;
 }
 
 
@@ -1248,3 +1247,176 @@ body {
   margin-right: 12px;
   margin-top: -5px;
 }
+
+/* Kapil CSS Start */
+
+.header .collapse { visibility: visible; }
+.header .hamburger-menu { display: flex; flex-wrap: wrap; align-items: center; }
+.header .hamburger-menu .navbar-collapse .navbar-nav { align-items: center; }
+.header .hamburger-menu .navbar-collapse .navbar-nav .nav-link { margin-left: 40px; padding: 0; color: #1D3A59; transition: all 0.3s ease-in-out; }
+.header .hamburger-menu .navbar-collapse .navbar-nav .nav-link:first-child { margin-left: 0; }
+.header .hamburger-menu .navbar-collapse .navbar-nav .nav-link:hover, .header .navbar-collapse .navbar-nav .nav-link.active { color: #1A9EDA; }
+.header .hamburger-menu .book-btn.btn { border: none; padding: 20px 60px; border-radius: 80px; margin-left: 60px; }
+
+.carousel.mobile { display: none; }
+.carousel .carousel-control-prev, .carousel .carousel-control-next { width: auto; }
+
+.services .imgss { display: flex; flex-wrap: wrap; align-items: center; margin-bottom: 40px; }
+.services .imgss .clientt { width: 20%; }
+
+.services2 .imgss { display: flex; flex-wrap: wrap; align-items: center; }
+.services2 .imgss .box { width: 33.33%; }
+.services2 .imgss .box .social2 { width: 70%; margin: 0 auto 20px; }
+
+/* Desktop 1600px Screen */
+@media(max-width: 1850px){
+  .container { max-width: 1440px; }
+  .carousel-caption { margin: 0 0 0 50px; }
+}
+
+/* Desktop 1440px Screen */
+@media(max-width: 1440px){
+  .container { max-width: 1280px; }
+  .member-infoo { margin-right: 140px; }
+  .member-infooo { margin-right: 0; }
+  .member-info-content h6 { margin-right: 110px; }
+
+  .quick-repairs-images .quick-repairs-images2 { width: calc(50% - 37px); margin-left: 37px; }
+}
+
+/* Desktop 1280px Screen */
+@media(max-width: 1366px){
+  .container { max-width: 1180px; }
+  .header .hamburger-menu .navbar-collapse .navbar-nav .nav-link { margin-left: 20px; }
+  .header .hamburger-menu .book-btn.btn { padding: 20px 40px; margin-left: 30px; }
+  .carousel-caption { margin: 0 0 0 20px; }
+  .quick-repairs-images .quick-repairs-images2 { width: calc(50% - 34px); margin-left: 34px; }
+  .repair .portfolio-item .portfolio-info { width: 170px; left: 50%; right: inherit; transform: translateX(-50%); padding: 5px 0; bottom: 23px; }
+  .services2 .imgss .box .social2 { width: 60%; }
+
+  .our-value-mission-section .boxx p { font-size: 17px; }
+  .who-we-are-section .consultation h2 { font-size: 39px; }
+}
+
+/* Ipad 1024px Screen */
+@media(max-width: 1199px){
+  .container { max-width: 960px; }
+  .header .hamburger-menu .book-btn.btn { padding: 15px 20px; }
+  .header .hamburger-menu .navbar-collapse .navbar-nav .nav-link { margin-left: 15px; }
+  .quick-repairs-images .quick-repairs-images2 { width: calc(50% - 46px); margin-left: 46px; }
+  .quick-repairs-content { padding-top: 50px; padding-left: 50px; }
+  
+  .carousel-caption { margin: 0; }
+  
+  .services .imgss { justify-content: center; }
+  .services .imgss .clientt { width: 25%; }
+  .services2 .imgss .box .social2 { width: 80%; }
+  
+  .repair .portfolio-item:hover { transform: scale(1); }
+  .repair .portfolio-item .portfolio-info { opacity: 1; width: 170px; left: 50%; right: inherit; transform: translateX(-50%); padding: 5px 0; bottom: 23px; }
+  .repair .portfolio-item:hover .portfolio-info { bottom: 23px; }
+
+  .who-we-are-section .consultation h2 { font-size: 28px; }
+  .who-we-are-section .consultation p { font-size: 15px; }
+  .who-we-are-section .Experience .count-boxx { width: 80%; top: 35%; right: 50%; }
+  .our-value-mission-section .boxx p { font-size: 13px; }
+
+  .our-value-mission-section .boxx .row { align-items: center; }
+  .our-value-mission-section .boxx .row > div { padding: 0 !important; }
+  .our-value-mission-section .boxx .row .value-img { width: auto; }
+}
+
+/* Ipad 768px Screen */
+@media(max-width: 991px){
+  .container { max-width: 100%; }
+  .header .hamburger-menu { flex-direction: row-reverse; position: relative; }
+  .header .hamburger-menu .navbar-toggler:focus, .header .hamburger-menu .navbar-toggler:focus-visible { box-shadow: none; outline: none; }
+  .header .hamburger-menu .navbar-collapse { position: absolute; top: 83px; right: -12px; z-index: 1; background: #fff; padding: 20px 20px; width: 100%; }
+  .header .hamburger-menu .navbar-collapse .navbar-nav .nav-link { width: 100%; margin: 0 0 20px; }
+  .header .hamburger-menu .navbar-collapse .navbar-nav .nav-link:last-child { margin: 0; }
+  .header .hamburger-menu .book-btn.btn { margin-right: 30px; }
+
+  .carousel.desktop { display: none; }
+  .carousel.mobile { display: block; }
+
+  .carousel-caption { top: 0; }
+
+  .Products .Categories_item { margin: 0 0 30px; }
+
+  .social1 { font-size: 20px; }
+  .social2 { font-size: 17px; }
+  .services2 .imgss .box .social2 { width: 80%; }
+  .quick-repairs-images .quick-repairs-images2 img:first-child { margin-bottom: 45px; }
+  .repair .portfolio-item { margin-bottom: 24px; }
+
+  .who-we-are-section .consultation { padding: 0; }
+  .who-we-are-section .consultation > div { padding: 0; text-align: start; }
+
+  .who-we-are-section .consultation h2 { font-size: 25px; padding: 15px 0 10px; }
+  .who-we-are-section .consultation p { font-size: 13px; }
+
+  .Sevices .cons-fon { font-size: 25px; }
+  .Sevices p { font-size: 16px; }
+  .our-value-section .wow p { font-size: 18px; }
+}
+
+/* Ipad 767px Screen */
+@media(max-width: 767px){
+  .container { max-width: 100%; }
+  .repair .portfolio-item img { width: 100%; }
+}
+
+/* Mobile 414px Screen */
+@media(max-width: 567px){
+  .container { max-width: 100%; }
+  .header .hamburger-menu .book-btn.btn { margin-left: 0; margin-right: 15px; padding: 13px 15px; font-size: 14px; }
+  .header .hamburger-menu .navbar-toggler { padding: 0; border: none; }
+  .header .hamburger-menu .navbar-collapse { top: 78px; }
+
+  .demoo { font-size: 32px; }
+  .carousel-caption p { font-size: 14px; }
+
+  .cta p:last-child { font-size: 26px; }
+
+  .quick-repairs-section { padding: 50px 0; }
+  .quick-repairs-images .quick-repairs-images2 { width: calc(50% - 35px); margin-left: 35px; }
+  .quick-repairs-content { padding-top: 30px; padding-left: 20px; padding-right: 20px; }
+  .quick1 { font-size: 30px; padding: 15px 0 10px; }
+  .btnn { margin-top: 20px; }
+  .services .imgss .clientt { width: 50%; }
+  .services2 .imgss .box { width: 100%; margin: 0 0 30px; }
+  .services2 .imgss .box:last-child { margin: 0; }
+}
+
+/* Mobile 375px Screen */
+@media(max-width: 375px){
+  .container { max-width: 100%; }
+
+  .demoo { font-size: 26px; }
+  .carousel-caption p { font-size: 12px; }
+
+  .quick1 { font-size: 26px; }
+  .quick-repairs-images .quick-repairs-images2 { width: calc(50% - 26px); margin-left: 26px; }
+  .quick-repairs-images .quick-repairs-images2 img:first-child { margin-bottom: 30px; }
+  .service { margin-bottom: 10px; }
+}
+
+/* Mobile 320px Screen */
+@media(max-width: 320px){
+  .container { max-width: 100%; }
+
+  .demoo { font-size: 22px; }
+  .carousel-caption { width: 100%; right: inherit; left: 50%; transform: translateX(-50%); }
+
+  .header .navbar-brand { width: calc(100% - 220px); }
+  .header .hamburger-menu .book-btn.btn { padding: 8px 10px; }
+  .header .hamburger-menu .navbar-collapse { top: 56px; }
+  .quick-repairs-images .quick-repairs-images2 img:first-child { margin-bottom: 33px; }
+  .quick { font-size: 12px; }
+  .quick1 { font-size: 22px; }
+  .quick2 { font-size: 14px; }
+  .service { font-size: 15px; align-items: center; }
+  .services .imgss .clientt { width: 100%; }
+}
+
+/* Kapil CSS End */

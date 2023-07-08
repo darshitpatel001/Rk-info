@@ -4,7 +4,7 @@ import Ourvalue2 from '../assets/img/Group 164.png'
 export default function Ourvalue() {
     return (
         <>
-            <div className='bg-[#F3F5F9]'>
+            <div className='bg-[#F3F5F9] our-value-section'>
                 <div className="container pt-24 pb-24">
 
                     <div className="text-center wow animate__backInDown" data-wow-duration="1s">
@@ -15,19 +15,19 @@ export default function Ourvalue() {
 
                 </div>
             </div>
-            <div className='container pt-10 pb-20'>
+            <div className='container pt-10 pb-20 our-value-mission-section'>
                 <div className='row'>
                     <div className="col-lg-6 p-4">
                         <div className="boxx bg-white wow animate__backInRight" data-wow-duration="1s">
 
                             <div className='row'>
-                                <div className='col-lg-2 pt-4'>
+                                <div className='col-lg-2 col-2 pt-4'>
                                     <div className="value-img">
                                         <img src={Ourvalue1}  alt=''/>
                                     </div>
                                 </div>
 
-                                <div className='col-lg-10 pt-1' >
+                                <div className='col-lg-10 col-10 pt-1' >
                                     <div className="ml-3 text-start">
                                         <h1 className='text-[#1D3A59] text-[35px] brand-text'>Our Value</h1>
                                         <p className='text-[#727E8E] text-[18px]'>The computer is indispensable, and its <br />presence has in our daily life, and it has<br /> become easier for ... </p>
@@ -42,13 +42,13 @@ export default function Ourvalue() {
                         <div className="boxx bg-white wow animate__backInLeft" data-wow-duration="1s">
 
                             <div className='row'>
-                                <div className='col-lg-2 pt-4'>
+                                <div className='col-lg-2 col-2 pt-4'>
                                     <div className="value-img">
                                         <img src={Ourvalue2}  alt=''/>
                                     </div>
                                 </div>
 
-                                <div className='col-lg-10 pt-1'>
+                                <div className='col-lg-10 col-10 pt-1'>
                                     <div className="ml-3 text-start">
                                         <h1 className='text-[#1D3A59] text-[35px] brand-text'>Our Mission</h1>
                                         <p className='text-[#727E8E] text-[18px]'>Our mission is to provide outstanding value to<br /> our customers, employees, and business<br /> partners ...</p>

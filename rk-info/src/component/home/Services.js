@@ -24,9 +24,9 @@ export default function Services() {
       <section id="Products" className="Products section-bg">
         <div className="container" >
 
-          <div className="row">
+          <div className="row justify-content-center">
 
-            <div className="col-xl-4 col-lg-4 col-md-6">
+            <div className="col-xl-3 col-lg-3 col-sm-6 col-12">
               <div className="Product wow animate__backInUp Categories_item" data-wow-duration="1s">
                 <img src={Services1} alt="" className="img-fluid imgss"/>
                 <div className='cte1'>
@@ -42,7 +42,7 @@ export default function Services() {
               </div>
             </div>
 
-            <div className="col-xl-4 col-lg-4 col-md-6">
+            <div className="col-xl-3 col-lg-3 col-sm-6 col-12">
               <div className="Product wow animate__backInUp Categories_item" data-wow-duration="1s">
                 <img src={Services2} className="img-fluid imgss" alt="" />
                 <div className='cte1'>
@@ -58,7 +58,7 @@ export default function Services() {
               </div>
             </div>
 
-            <div className="col-xl-4 col-lg-4 col-md-6">
+            <div className="col-xl-3 col-lg-3 col-sm-6 col-12">
               <div className="Product wow animate__backInUp Categories_item" data-wow-duration="1s">
                 <img src={Services3} className="img-fluid imgss" alt="" />
                 <div className='cte1'>

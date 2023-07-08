@@ -31,7 +31,7 @@ export default function Ourclients() {
       <section id="client" className="services">
         <div className="container">
 
-          <div className=" grid xl:grid-cols-5 lg:grid-cols-2 md:grid-1 py-2 mb-2 imgss ">
+          <div className="imgss">
             <div className='clientt'><img src={Client1}  alt=''/></div>
             <div className='clientt'><img src={Client2}  alt=''/></div>
             <div className='clientt'><img src={Client3}  alt=''/></div>

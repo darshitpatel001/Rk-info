@@ -9,10 +9,10 @@ import { Link } from 'react-router-dom'
 export default function Social() {
     return (
         <>
-            <section className="services">
+            <section className="services2">
                 <div className="container text-center pt-20 pb-16">
-                    <div className=" grid xl:grid-cols-3 lg:grid-cols-3 md:grid-1 py-2 mb-2 imgss wow animate__flipInX" data-wow-duration="1s">
-                        <div>
+                    <div className="imgss wow animate__flipInX" data-wow-duration="1s">
+                        <div className="box">
                             <img src={Social1} alt="" className='social' />
                             <div>
                                 <h1 className='social1'>Online Shop</h1>
@@ -21,7 +21,7 @@ export default function Social() {
                                 <Link to='/product'><img src={Social4} alt="" className='social' /></Link>
                             </div>
                         </div>
-                        <div>
+                        <div className="box">
                             <img src={Social2} alt="" className='social' />
                             <div>
                                 <h1 className='social1'>Locations</h1>
@@ -30,7 +30,7 @@ export default function Social() {
                                 <Link to='/contact'><img src={Social4} alt="" className='social' /></Link>
                             </div>
                         </div>
-                        <div>
+                        <div className="box">
                             <img src={Social3} alt="" className='social' />
                             <div>
                                 <h1 className='social1'>Support</h1>

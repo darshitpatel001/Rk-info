@@ -216,8 +216,8 @@ body {
     left: 100px;
   } */
 }
-/* 
 
+/* 
 .technicians2 {
   position: absolute;
   height: 400px;
@@ -486,7 +486,7 @@ body {
 .Experience2 {
   position: absolute;
   top: 275px;
-  right: 400px;
+  right: 300px;
 }
 
 .Exp-text {
@@ -759,7 +759,6 @@ body {
   color: #ffffff;
   height: 600px;
   background-repeat: no-repeat;
-
 }
 
 .products ol {
