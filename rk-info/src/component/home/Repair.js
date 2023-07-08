@@ -10,9 +10,7 @@ export default function Repair() {
     <>
       <section className="repair pt-24">
         <div className="container-fluid">
-
           <div className="row">
-
             <div className="col-lg-3 col-md-6 col-sm-6 col-12 portfolio-item filter-app">
               <img src={services1} alt='' className="img-fluid imgss" />
               <div>
@@ -23,7 +21,7 @@ export default function Repair() {
               </div>
             </div>
             <div className="col-lg-3 col-md-6 col-sm-6 col-12 portfolio-item filter-web">
-              <img src={services2}  alt=''className="img-fluid imgss" />
+              <img src={services2} alt='' className="img-fluid imgss" />
               <div className="portfolio-info">
                 <h4 className='repair1'>Power Supply</h4>
                 <p className='repair2'>selling product</p>
@@ -45,9 +43,7 @@ export default function Repair() {
                 <p className='repair2'>selling product</p>
               </div>
             </div>
-
           </div>
-
         </div>
       </section>
     </>
