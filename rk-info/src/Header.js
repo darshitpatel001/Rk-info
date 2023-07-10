@@ -9,7 +9,11 @@ export default function Header() {
     <>
       <Navbar expand="lg" className="bg-body-tertiary header">
         <Container>
-          <Navbar.Brand href="#home"><img src={logo} alt="" /></Navbar.Brand>
+          <Navbar.Brand>
+            <Link to="/">
+              <img src={logo} alt="" />
+            </Link>
+          </Navbar.Brand>
           <div className="hamburger-menu">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
@@ -46,7 +50,7 @@ export default function Header() {
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>
-            <Button className="book-btn">Book on Engineer</Button>
+            <Button className="book-btn"><Link to='/contact'> Book on Engineer</Link></Button>
           </div>
         </Container>
       </Navbar>

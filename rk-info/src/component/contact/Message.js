@@ -5,7 +5,7 @@ import icon2 from '../assets/img/map.png'
 export default function Message() {
     return (
         <>
-            <div className='bg-[#F3F5F9]'>
+            <div className='bg-[#F3F5F9] message-section'>
                 <div className="container pt-24 pb-24">
 
                     <div className="text-center wow animate__backInDown" data-wow-duration="1s">
@@ -18,7 +18,7 @@ export default function Message() {
             <div className='pt-20 pb-20'>
                 <div className='container boxx'>
                     <div className='row'>
-                        <div className='col-lg-4'>
+                        <div className='col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12'>
                             <div className='container bg-[#FFE1D2] p-6 rounded message'>
                                 <div className='wow animate__backInRight' data-wow-duration="1s">
                                     <h1 className='pt-4 text-[#1D3A59] text-[25px]'><b>Contact Information</b></h1>
@@ -48,7 +48,7 @@ export default function Message() {
                                     <div className="icon pt-8">
                                         <img src={icon2}  alt=''/>
                                         <div className="text">
-                                            <h1 className='px-2 text-[#1D3A59]'>112, Skyzone Business Hub, Nr. Shyamdham Temple, Sarathana Jakatnaka, Surat - 395006 IN</h1>
+                                            <h1 className='px-2 text-[#1D3A59]'>1, Lower Ground Floor, Raghukul Nivas, Mohan Ni Chal, Opp. Super Diamond Market, Varachha Road, Surat.</h1>
                                         </div>
                                     </div>
 
@@ -56,7 +56,7 @@ export default function Message() {
                             </div>
                         </div>
 
-                        <div className='col-lg-8'>
+                        <div className='col-xl-8 col-lg-6 col-md-12 col-sm-12 col-12'>
                             <form action="https://formsubmit.co/darshitakbari9999@gmail.com" method="POST" className='pt-5' >
 
                                 <div className="row mb-4">

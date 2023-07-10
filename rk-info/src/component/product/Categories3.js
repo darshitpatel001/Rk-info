@@ -12,26 +12,26 @@ export default function Categories3() {
   return (
     <>
       <div class="container product-section wow animate__backInUp">
-        <div class="row pt-24">
-        <div class="col-md-6 col-sm-6 col-lg-3 Categories_item pb-10">
+        <div class="row">
+        <div class="col-md-6 col-sm-6 col-lg-3 Categories_item">
             <img src={Categorie1} className="img-fluid imgsss " alt="" />
             <div className='Categories'>
               <h1>Fire Alarm Solution</h1>
             </div>
           </div>
-          <div class="col-md-6 col-sm-6 col-lg-3 Categories_item pb-10">
+          <div class="col-md-6 col-sm-6 col-lg-3 Categories_item">
             <img src={Categorie2} className="img-fluid imgsss " alt="" />
             <div className='Categories'>
               <h1>Wireless Access Point Solution</h1>
             </div>
           </div>
-          <div class="col-md-6 col-sm-6 col-lg-3 Categories_item pb-10">
+          <div class="col-md-6 col-sm-6 col-lg-3 Categories_item">
             <img src={Categorie3} className="img-fluid imgsss " alt="" />
             <div className='Categories'>
               <h1>Biometric Solution</h1>
             </div>
           </div>
-          <div class="col-md-6 col-sm-6 col-lg-3 Categories_item pb-10">
+          <div class="col-md-6 col-sm-6 col-lg-3 Categories_item">
             <img src={Categorie4} className="img-fluid imgsss " alt="" />
             <div className='Categories'>
               <h1>Home Automation</h1>
@@ -40,26 +40,26 @@ export default function Categories3() {
         </div>
       </div>
       <div class="container product-section wow animate__backInUp">
-        <div class="row pt-24">
-          <div class="col-md-6 col-sm-6 col-lg-3 Categories_item pb-10">
+        <div class="row">
+          <div class="col-md-6 col-sm-6 col-lg-3 Categories_item">
             <img src={Categorie5} className="img-fluid imgsss " alt="" />
             <div className='Categories'>
               <h1>Networking &  IT Solution</h1>
             </div>
           </div>
-          <div class="col-md-6 col-sm-6 col-lg-3 Categories_item pb-10">
+          <div class="col-md-6 col-sm-6 col-lg-3 Categories_item">
             <img src={Categorie6} className="img-fluid imgsss " alt="" />
             <div className='Categories'>
               <h1>Smart Drawer Lock</h1>
             </div>
           </div>
-          <div class="col-md-6 col-sm-6 col-lg-3 Categories_item pb-10">
+          <div class="col-md-6 col-sm-6 col-lg-3 Categories_item">
             <img src={Categorie7} className="img-fluid imgsss " alt="" />
             <div className='Categories'>
               <h1>Computer Peripherals & Accessories</h1>
             </div>
           </div>
-          <div class="col-md-6 col-sm-6 col-lg-3 Categories_item pb-10">
+          <div class="col-md-6 col-sm-6 col-lg-3 Categories_item">
             <img src={Categorie8} className="img-fluid imgsss " alt="" />
             <div className='Categories'>
               <h1>Access Control Solution</h1>

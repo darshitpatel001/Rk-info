@@ -9,7 +9,7 @@ export default function Experience() {
     }, []);
     return (
         <>
-            <div className="container pb-10">
+            <div className="container pb-10 contact-section">
                 <div className="row">
                     <div className="col-lg-6">
                         <div className="container pt-5" data-aos="zoom-in">
@@ -40,7 +40,7 @@ export default function Experience() {
                     </div>
 
                     <div className="col-lg-6 maps wow animate__rubberBand">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.0300517715145!2d72.89328587605831!3d21.23065688081199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04fa3bc89d225%3A0xbb36f06baa85efca!2sSARTHANA%20BUSINESS%20HUB!5e0!3m2!1sen!2sin!4v1687870918643!5m2!1sen!2sin" width="600" height="450" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.3926833238165!2d72.87254061128283!3d21.21627158122954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04f12ab25f475%3A0x16a8e2de07701aab!2sMohan%20Ni%20Chal%2C%2052-53%2C%20Lambe%20Hanuman%20Rd%2C%20Mohan%20Nagar%2C%20Varachha%2C%20Surat%2C%20Gujarat%20395006!5e0!3m2!1sen!2sin!4v1688986319462!5m2!1sen!2sin" width="100%" height="100%" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="map" ></iframe>
 
                     </div>
 

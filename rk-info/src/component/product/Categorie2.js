@@ -6,21 +6,21 @@ import Categories4 from '../assets/img/Epabx.png'
 export default function Categorie1() {
   return (
     <>
-    <div className='container product-section pt-24 wow animate__backInUp'>
+    <div className='container product-section wow animate__backInUp'>
         <div class="row">
-          <div class="col-md-6 col-sm-6 col-lg-3 Categories_item pb-10">
+          <div class="col-md-6 col-sm-6 col-lg-3 Categories_item">
             <img src={Categories1} className="img-fluid imgsss " alt="" />
             <div className='Categories'>
               <h1>CCTV Cable</h1>
             </div>
           </div>
-          <div class="col-md-6 col-sm-6 col-lg-3 Categories_item pb-10">
+          <div class="col-md-6 col-sm-6 col-lg-3 Categories_item">
             <img src={Categories2} className="img-fluid imgsss " alt="" />
             <div className='Categories'>
               <h1>DC UPS</h1>
             </div>
           </div>
-          <div class="col-md-6 col-sm-6 col-lg-3 Categories_item pb-10">
+          <div class="col-md-6 col-sm-6 col-lg-3 Categories_item">
             <img src={Categories3} className="img-fluid imgsss " alt="" />
             <div className='Categories'>
               <h1>CCTV Rack</h1>
