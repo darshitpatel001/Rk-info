@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from './component/assets/img/RK logo.png'
 import './component/css/index.css'
-import {Container, Nav, Navbar, Button} from 'react-bootstrap';
+import { Container, Nav, Navbar, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 export default function Header() {
