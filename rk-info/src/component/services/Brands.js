@@ -15,11 +15,11 @@ export default function Brands() {
                     </div>
                 </div>
             </section>
-            <section className="inner-page">
+            <section className="inner-page inner-page2">
                 <div className="container">
                     <div className="row  pt-10 pb-20">
 
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 col-md-6 col-sm-6">
                             <div className='wow animate__backInRight' data-wow-duration="1s">
                                 <div className="service mt-10">
                                     <div className="text-sidee-imageee">
@@ -51,7 +51,7 @@ export default function Brands() {
 
                             </div>
                         </div>
-                        <div className="col-lg-6 ">
+                        <div className="col-lg-6 col-md-6 col-sm-6">
                             <div className='wow animate__backInLeft' data-wow-duration="1s">
                                 <div className="service mt-10">
                                     <div className="text-sidee-imageee">

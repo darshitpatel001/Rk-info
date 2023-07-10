@@ -11,7 +11,7 @@ export default function Technicians() {
                 <div className="container">
                     <div className="row">
 
-                        <div className="col-lg-7 pt-16">
+                        <div className="col-lg-7 pt-16 technician-content">
                             <h1 className='quick11 wow animate__backInLeft' data-wow-duration="1s">Our experienced technicians<br /> are ready to repair your<br /> device right now!</h1>
                             <p className='quick22 wow animate__backInLeft' data-wow-duration="1s">consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper<br /> mattis, more pulvinar dapibus leo.</p>
                             <div className=' wow animate__backInLeft' data-wow-duration="2s">
@@ -58,7 +58,7 @@ export default function Technicians() {
                             </div>
                         </div>
 
-                        <div className="col-lg-5">
+                        <div className="col-lg-5 technician-img">
                             <img
                                 className='service1 repire imgss wow animate__zoomInUp'
                                 data-wow-duration="3s"

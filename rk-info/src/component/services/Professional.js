@@ -19,37 +19,31 @@ export default function Professional() {
                     </div>
 
                     <div className="container text-center pt-8">
-                        <div className=" grid xl:grid-cols-3 lg:grid-cols-3 md:grid-1 py-2 mb-2 imgss wow animate__flipInX" data-wow-duration="1s">
-                            <div className='p-3'>
-                                <div className='count-box'>
-                                    <img src={prof1} alt="" className='social' />
-                                    <div>
-                                        <h1 className='social1'>Computer System</h1>
-                                        <h2 className='social2'>Ullamcorper finibus et arcu tellus inceptos habitasse sed augue lobortis at vitae</h2>
+                        <div className="imgss wow animate__flipInX" data-wow-duration="1s">
+                            <div className='count-box'>
+                                <img src={prof1} alt="" className='social' />
+                                <div>
+                                    <h1 className='social1'>Computer System</h1>
+                                    <h2 className='social2'>Ullamcorper finibus et arcu tellus inceptos habitasse sed augue lobortis at vitae</h2>
 
-                                    </div>
                                 </div>
                             </div>
 
-                            <div className='p-3'>
-                                <div className='count-box'>
-                                    <img src={prof2} alt="" className='social' />
-                                    <div>
-                                        <h1 className='social1'>CCTV & Security</h1>
-                                        <h2 className='social2'>These cameras share the images across the internet, so CCTV footage can be easily accessed.</h2>
+                            <div className='count-box'>
+                                <img src={prof2} alt="" className='social' />
+                                <div>
+                                    <h1 className='social1'>CCTV & Security</h1>
+                                    <h2 className='social2'>These cameras share the images across the internet, so CCTV footage can be easily accessed.</h2>
 
-                                    </div>
                                 </div>
                             </div>
 
-                            <div className='p-3'>
-                                <div className='count-box'>
-                                    <img src={prof3} alt="" className='social' />
-                                    <div>
-                                        <h1 className='social1'>Analog EPABX</h1>
-                                        <h2 className='social2'>Electronic Private Automatic Branch Exchange which is a private telephone network   </h2>
+                            <div className='count-box'>
+                                <img src={prof3} alt="" className='social' />
+                                <div>
+                                    <h1 className='social1'>Analog EPABX</h1>
+                                    <h2 className='social2'>Electronic Private Automatic Branch Exchange which is a private telephone network   </h2>
 
-                                    </div>
                                 </div>
                             </div>
 

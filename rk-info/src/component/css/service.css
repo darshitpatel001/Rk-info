@@ -820,3 +820,51 @@ body {
   transform: scale(.97);
 }
 
+/* Desktop 1600px Screen */
+@media(max-width: 1850px){
+  .products { height: 545px; }
+}
+
+/* Desktop 1440px Screen */
+@media(max-width: 1440px){
+  
+}
+
+/* Desktop 1280px Screen */
+@media(max-width: 1366px){
+  
+}
+
+/* Ipad 1024px Screen */
+@media(max-width: 1199px){
+  
+}
+
+/* Kapil CSS End */
+
+/* Ipad 768px Screen */
+@media(max-width: 991px){
+  
+}
+
+/* Ipad 767px Screen */
+@media(max-width: 767px){
+  
+}
+
+/* Mobile 414px Screen */
+@media(max-width: 567px){
+  
+}
+
+/* Mobile 375px Screen */
+@media(max-width: 375px){
+  
+}
+
+/* Mobile 320px Screen */
+@media(max-width: 320px){
+  
+}
+
+/* Kapil CSS End */

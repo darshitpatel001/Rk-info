@@ -12,7 +12,7 @@ import brand7 from '../assets/img/Rectangle 40.png'
 export default function Brand() {
     return (
         <>
-            <div>
+            <div className="brand-sections">
                 <div className="container pt-10">
 
                     <div className="text-center wow animate__backInDown" data-wow-duration="1s">

@@ -8,8 +8,8 @@ export default function Ourvalue() {
                 <div className="container pt-24 pb-24">
 
                     <div className="text-center wow animate__backInDown" data-wow-duration="1s">
-                        <h1 className='text-[18px] text-[#1A9EDA]'>Our Value</h1>
-                        <h1 className='text-[45px] text-[#027BB1] pb-4'>The smart way to fix computers</h1>
+                        <h1 className='text-[18px] text-[#1A9EDA] title'>Our Value</h1>
+                        <h1 className='text-[45px] text-[#027BB1] pb-4 heading'>The smart way to fix computers</h1>
                         <p className='text-[20px] text-[#727E8E]'>A computer that freezes or runs slowly could be a sign of more serious problems to come. Before <br />you do anything else, be sure to back up your important folders and files while you still have <br />access to them.</p>
                     </div>
 
@@ -17,7 +17,7 @@ export default function Ourvalue() {
             </div>
             <div className='container pt-10 pb-20 our-value-mission-section'>
                 <div className='row'>
-                    <div className="col-lg-6 p-4">
+                    <div className="col-lg-6 col-md-6 col-sm-6 col-12 p-4">
                         <div className="boxx bg-white wow animate__backInRight" data-wow-duration="1s">
 
                             <div className='row'>
@@ -38,7 +38,7 @@ export default function Ourvalue() {
                         </div>
                     </div>
 
-                    <div className="col-lg-6 p-4">
+                    <div className="col-lg-6 col-md-6 col-sm-6 col-12 p-4">
                         <div className="boxx bg-white wow animate__backInLeft" data-wow-duration="1s">
 
                             <div className='row'>

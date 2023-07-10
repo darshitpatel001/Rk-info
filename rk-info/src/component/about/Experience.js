@@ -15,7 +15,7 @@ export default function Experience() {
             <div className="container-fluid who-we-are-section">
                 <div className="row">
 
-                    <div className="col-lg-7 col-md-6">
+                    <div className="col-lg-7 col-md-6 who-we-are-content">
                         <div className="pb-16">
                             <div className="consultation pt-10 content-start  wow animate__backInLeft">
                                 <div className="container-fluid px-20">
@@ -28,7 +28,7 @@ export default function Experience() {
                         </div>
                     </div>
 
-                    <div className="col-lg-5 col-md-6 pt-2 pb-10">
+                    <div className="col-lg-5 col-md-6 pt-2 pb-10 who-we-are-img">
                         <div className='Experience'>
                         <img src={Technicians1}  alt='' className="img-fluid w-[500px] wow animate__zoomInUp" />
                         <div className="count-boxx  Experience2">
@@ -38,8 +38,6 @@ export default function Experience() {
                             </div>
                         </div>
                     </div>
-
-
                 </div>
             </div>
 
