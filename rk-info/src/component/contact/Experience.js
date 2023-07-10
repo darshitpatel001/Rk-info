@@ -20,7 +20,7 @@ export default function Experience() {
                                 </p>
                             </div>
                         </div>
-                        <form action="https://formsubmit.co/darshitakbari9999@gmail.com" method="POST" >
+                        <form action="https://formsubmit.co/rktechnology2022@gmail.com" method="POST" >
                             <div className="form-floating mb-3">
                                 <input type="text" name='address' className="form-control form-con" />
                                 <label htmlFor="address" className='formm'>Address :-</label>

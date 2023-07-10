@@ -57,7 +57,7 @@ export default function Message() {
                         </div>
 
                         <div className='col-xl-8 col-lg-6 col-md-12 col-sm-12 col-12'>
-                            <form action="https://formsubmit.co/darshitakbari9999@gmail.com" method="POST" className='pt-5' >
+                            <form action="https://formsubmit.co/rktechnology2022@gmail.com" method="POST" className='pt-5' >
 
                                 <div className="row mb-4">
                                     <div className="col">
