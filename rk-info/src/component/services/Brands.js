@@ -41,7 +41,6 @@ export default function Brands() {
                                         <div className="ml-3 text-start">
                                             <h1 className='text-[#1D3A59] text-[35px] brand-text'>Genuine Parts</h1>
                                             <p className='text-[#727E8E] brand-text1'>A limited warranty can mean virtually anything the manufacturer decides, so it is important to fully understand the meanin</p>
-
                                         </div>
                                     </span>
                                 </div>
